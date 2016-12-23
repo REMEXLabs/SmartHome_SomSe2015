@@ -1,0 +1,506 @@
+@import "normalize";
+@import "colors";
+
+
+// Pseudo Classes
+@mixin fullsize {
+	width: 100%;
+	height: 100%;
+}
+
+@mixin tilesP {
+	height: 33%;
+	width: 50%;
+}
+
+@mixin tilesL {
+	height: 50%;
+	width: 33.33%;
+}
+
+body, html {
+	font-family: 'Segoe UI', Arial, sans-serif ;
+	@include fullsize;
+	background-color: #ccc;
+	background-size: cover;
+}
+
+
+/* Grid For Tiles */
+#grid {
+	height: 100%;
+	width: 100%;
+	padding: 0;
+
+	&.detail {
+		.tile {
+			padding: 20px;
+			figure {
+				background-position: center;
+			}
+			data {
+				display: none;
+			}
+			&.active {
+				figure {
+				  border-radius: 0 20%;
+				  background-color: rgba(0,0,0,0.001);
+				}
+			}
+		}
+	}
+
+}
+
+/* Tiles List View*/
+.tile {
+  padding: 25px;
+  float: left;
+  clear: none;
+  box-sizing: border-box;
+  overflow: hidden;
+
+	figure {
+		@include fullsize;
+		transition-property: border-radius, box-shadow, background-color;
+		transition-duration: 250ms;
+
+		margin: 0;
+		position: relative;
+		border-radius: 40px 0;
+		box-shadow: 0px 0px 25px 10px #A5A5A5;
+		box-sizing: border-box;
+		background-color: rgba(255,255,255,0.7);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: 80%;
+
+		display: table;
+		text-align: center;
+
+		data {
+			line-height: normal;
+			font-size: 3em;
+			display: table-cell;
+			vertical-align: middle;
+			&.left {
+				padding-right: 50%;
+			}
+			&.right {
+				padding-left: 50%;
+			}
+		}
+
+	}
+	&#temperature {
+		figure {
+			background-image: url('../images/temperature.svg');
+			background-position: -50% center;
+		}
+	}
+	&#food {
+		figure {
+			background-image: url('../images/market.svg');
+		}
+	}
+	&#weather {
+		figure {
+			background-image: url('../images/weather.svg');
+		}
+	}
+	&#stresslevel {
+		figure {
+			background-image: url('../images/stresslevel.svg');
+		}
+	}
+	&#noise {
+		figure {
+			background-image: url('../images/noise.svg');
+			background-position: 150% center;
+		}
+	}
+	&#airquality {
+		figure {
+			background-image: url('../images/airquality.svg');
+		}
+	}
+
+}
+
+#detail {
+	box-sizing: border-box;
+	padding: 20px;
+	position: relative;
+
+	> div {
+		@include fullsize;
+		background-color: rgba(255,255,255,0.7);
+		box-shadow: 0 0 10px 10px rgba(255,255,255,0.7);
+		box-sizing: border-box;
+		border-radius: 40px;
+		padding: 20px;
+		overflow: hidden;
+
+		h1{
+			font-size: 3em;
+			line-height: 1em;
+			margin: 0 0 20px 0;
+		}
+		h2 {
+			font-size: 2.5em;
+		}
+		data {
+			font-size: 3em;
+		}
+	}
+
+	.ampel {
+		display: inline-block;
+		width: 100px;
+		height: 100px;
+		border: 20px solid white;
+		border-radius: 50%;
+		box-shadow: 5px 5px 40px -10px #8E8D8D;
+		margin: 40px;
+
+		&.ampel-1 {
+			background-color: $emerland;
+		}
+		&.ampel-2 {
+			background-color: $sunflower;
+		}
+		&.ampel-3 {
+			background-color: $pomegranate;
+		}
+	}
+
+	.slider {
+		height: 80%;
+		overflow: hidden;
+		position: relative;
+		margin-top: 40px;
+		&.limit-left > button.left {
+			opacity: 0.2;
+		}
+		&.limit-right > button.right {
+			opacity: 0.2;
+		}
+		> button{
+			position: absolute;
+			top: 50%;
+			margin-top: -30px;
+			border: none;
+			background-color: rgba(1,1,1,0.3);
+			height: 60px;
+			width: 60px;
+			z-index: 5;
+			background-size: 75%;
+			background-position: center;
+			background-repeat: no-repeat;
+			&.right {
+				background-image: url(../images/slide_right.svg);
+				right: 0px;
+			}
+			&.left {
+				background-image: url(../images/slide_left.svg);
+				left: 0px;
+			}
+		}
+		ul {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+			height: 100%;
+			position: relative;
+			transition: right 250ms ease-in-out;
+			right: 0px;
+			li {
+				float: left;
+				height: 100%;
+				figure {
+					height: 100%;
+					padding: 10px;
+					margin: 0;
+					img {
+						box-shadow: 2px 2px 10px 1px rgba(1,1,1,0.4);
+					}
+				}
+			}
+		}
+	}
+
+	.food {
+		.slider {
+			img {
+				min-height: 80%;
+				max-height: 80%;
+				height: 80%;
+				margin: 0 auto;
+				display: block;
+			}
+			figcaption {
+				height: 20%;
+				h2 {
+					margin: 0;
+					font-size: 2.5em;
+					text-align: center;
+				}
+			}
+		}
+	}
+
+	.temperature {
+		> div {
+			width: 100%;
+			height: 70%;
+    		margin-top: 20%;
+			&:after {
+				clear: both;
+				content: '';
+				display: block;
+			}
+			> div {
+				width: 33.33%;
+				height: 80%;
+				float: left;
+				> img {
+					height: 100%;
+					width: auto;
+				}
+				&:nth-child(1){
+					text-align: right;
+				}
+				&:nth-child(2){
+					background-image: url(../images/temperature.svg);
+					background-size: cover;
+					background-position: center;
+					background-repeat: no-repeat;
+				}
+
+			}
+		}
+	}
+
+	.weather {
+		.slider {
+			header {
+				margin-bottom: 40px;
+				> a  {
+					color: grey;
+					text-decoration: none;
+					font-size: 2.2em;
+					margin-right: 16px;
+					&.active {
+						color: black
+					}
+				}
+			}
+
+			.slide{
+				> img {
+					min-width: 50%;
+					max-width: 50%;
+					width: 50%;
+					float: left;
+				}
+				figcaption {
+					float: right;
+					width: 50%;
+					padding: 20px;
+					box-sizing: border-box;
+					h3 {
+						display: block;
+						margin: 0 auto;
+						font-size: 1.8em;
+						margin-bottom: 20px;
+						word-wrap: break-word;
+						&.rain {
+							padding-left: 50px;
+							background-image: url(../images/weather/rain.svg);
+							background-position: left top;
+							background-size: 35px;
+							background-repeat: no-repeat;
+						}
+					}
+
+				}
+			}
+			&:after {
+				content: '';
+				display: block;
+				clear: both;
+			}
+		}
+	}
+
+	.noise {
+		.ampel {
+			float: left;
+		}
+		data {
+			line-height: 140px;
+			margin: 40px;
+			display: inline-block;
+			&:after {
+				clear: both;
+			}
+		}
+		h2 {
+			margin: 0;
+		}
+		.devices {
+			margin: 0;
+			padding: 0;
+			list-style-type: none;
+			width: 100%;
+			> li {
+				margin: 0;
+				float: left;
+				width: 33%;
+				padding: 10px;
+				box-sizing: border-box;
+				> {
+					img {
+						width: 100%;
+						height: auto;
+						opacity: 0.5;
+						&.active {
+							opacity: 1;
+						}
+					}
+				}
+			}
+			&:after {
+				clear: both;
+				display: block;
+				content: '';
+			}
+		}
+	}
+
+	#clsBtn {
+		position: absolute;
+		right: 40px;
+		top: 40px;
+		width: 60px;
+		height: 60px;
+		border: none;
+		padding: 5px;
+		background-color: transparent;
+
+		> img {
+			@include fullsize;
+		}
+	}
+
+}
+
+// MediaQueries
+@media screen and (orientation:portrait){
+	#detail {
+		width: 100%;
+		height: 60%;
+	}
+	#grid	{
+		&.detail {
+			height: 40%;
+			.tile {
+				@include tilesL;
+			}
+		}
+		.tile {
+			@include tilesP;
+		}
+	}
+}
+
+@media screen and (orientation:landscape){
+	#detail {
+		height: 100%;
+		width: 60%;
+		float: left;
+	}
+	#grid	{
+		&.detail {
+			float: left;
+			width: 40%;
+			.tile {
+				@include tilesP;
+			}
+		}
+		.tile {
+			@include tilesL;
+		}
+	}
+}
+
+
+
+
+
+.hide {
+	display: none;
+}
+
+// Colors
+.temp-low > figure {
+	box-shadow: 0px 0px 25px 10px $river;
+}
+.temp-good > figure {
+	box-shadow: 0px 0px 25px 10px $emerland;
+}
+.temp-warm > figure {
+	box-shadow: 0px 0px 25px 10px $orange;
+}
+.temp-hot > figure {
+	box-shadow: 0px 0px 25px 10px $pomegranate;
+}
+
+// noise && Stresslvevel Classes
+.noise-1, .stresslevel-1, .airquality-1 {
+	> figure {
+		box-shadow: 0px 0px 25px 10px $emerland;
+	}
+}
+.noise-2, .stresslevel-2, .airquality-2 {
+	> figure {
+		box-shadow: 0px 0px 25px 10px $sunflower;
+	}
+}
+.noise-3, .stresslevel-3, .airquality-3 {
+	> figure {
+		box-shadow: 0px 0px 25px 10px $pomegranate;
+	}
+}
+
+ .active {
+	&.temp-low > figure {
+		box-shadow: 0px 0px 10px 10px $river;
+	}
+	&.temp-good > figure {
+		box-shadow: 0px 0px 10px 10px $emerland;
+	}
+	&.temp-warm > figure {
+		box-shadow: 0px 0px 10px 10px $orange;
+	}
+	&.temp-hot > figure {
+		box-shadow: 0px 0px 10px 10px $pomegranate;
+	}
+
+	// noise && Stresslvevel Classes
+	&.noise-1, &.stresslevel-1, &.airquality-1 {
+		> figure {
+			box-shadow: 0px 0px 10px 10px $emerland;
+		}
+	}
+	&.noise-2, &.stresslevel-2, &.airquality-2 {
+		> figure {
+			box-shadow: 0px 0px 10px 10px $sunflower;
+		}
+	}
+	&.noise-3, &.stresslevel-3, &.airquality-3 {
+		> figure {
+			box-shadow: 0px 0px 10px 10px $pomegranate;
+		}
+	}
+}

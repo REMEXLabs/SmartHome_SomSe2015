@@ -1,0 +1,29 @@
+{
+  "name": "NetAtmo-BackendServer",
+  "version": "1.0.1",
+  "description": "Blaaa",
+  "author": "Korbinian kram <kk114@hdm-stuttgart.de>",
+  "scripts": {
+  
+    "start": "nodemon Server/modulServer.js",
+    "predeploy": "echo im about to deploy",
+    "postdeploy": "echo ive deployed"
+  },
+  "main": "Server/modulServer.js",
+  "repository": {
+  "type": "git",
+  "url": ""
+  },
+  "bugs": {
+  "url": ""
+  },
+  "keywords": [
+    "bla"
+   ],
+  "dependencies": {
+	  "csv": ">= 0.0.1",
+    "q" : ">= 0.0.1",
+	  "xml2js": ">= 0.0.1",
+    "nodemon": ">= 0.0.1"
+	}
+}

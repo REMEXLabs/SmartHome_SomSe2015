@@ -1,0 +1,697 @@
+{
+    "airquality": {
+        "indoor": 3,
+        "percentage": 0.9,
+        "origin": [
+            {
+                "temperature": 1
+            },
+            {
+                "humidity": 7
+            },
+            {
+                "co2": 10
+            },
+            {
+                "noise": 7
+            }
+        ],
+        "message": "Misserable Qualität, es ist unbedingt Zeit zum Lüften"
+    },
+    "air_pressure": {
+        "indoor": 1022.9,
+        "percentage": 0.27,
+        "unit": "mb",
+        "message": "leichter Wind",
+        "flow_time_indoor": 1429017300,
+        "flow_indoor": [
+            987.4,
+            1025.7,
+            1025.4,
+            1024.9,
+            1024.7,
+            1024.5,
+            1024.4,
+            1024.3,
+            1024.2,
+            1024.1,
+            1024.1,
+            1024,
+            1024.1,
+            1024.1,
+            1024,
+            1023.9,
+            1023.8,
+            1023.7,
+            1023.5,
+            1023.4,
+            1023.1,
+            1022.8,
+            1022.6,
+            1022.4,
+            1022.2,
+            1022,
+            1021.9,
+            1021.7,
+            1021.6,
+            1021.5,
+            1021.3,
+            1021.2,
+            1021.1,
+            1021,
+            1021,
+            1020.9,
+            1020.7,
+            1020.6,
+            1020.6,
+            1020.5,
+            1020.4,
+            1020.2,
+            1019.8,
+            1019.5,
+            1019,
+            1018.5,
+            1018.1,
+            1017.7
+        ]
+    },
+    "co2": {
+        "indoor": 2000,
+        "percentage": 0.9,
+        "unit": "ppm",
+        "flow_time_indoor": 1429017300,
+        "flow_indoor": [
+            239,
+            192,
+            218,
+            368,
+            410,
+            429,
+            396,
+            382,
+            105,
+            274,
+            470,
+            654,
+            895,
+            1085,
+            1269,
+            1156,
+            447,
+            662,
+            859,
+            1113,
+            1307,
+            1492,
+            1784,
+            1949,
+            2086,
+            2273,
+            2462,
+            2588,
+            2717,
+            2813,
+            2947,
+            3070,
+            3173,
+            3316,
+            1483,
+            499,
+            409,
+            477,
+            596,
+            768,
+            886,
+            922,
+            737,
+            634,
+            632,
+            516,
+            424,
+            374
+        ]
+    },
+    "food": [
+        {
+            "Heidelbeeren": "http://www.chefkoch.de/rs/s0/Heidelbeeren/Rezepte.html"
+        },
+        {
+            "Erdbeeren": "http://www.chefkoch.de/rs/s0/Erdbeeren/Rezepte.html"
+        },
+        {
+            "Himbeeren": "http://www.chefkoch.de/rs/s0/Himbeeren/Rezepte.html"
+        },
+        {
+            "Johannisbeeren": "http://www.chefkoch.de/rs/s0/Johannisbeeren/Rezepte.html"
+        },
+        {
+            "Kirschen": "http://www.chefkoch.de/rs/s0/Kirschen/Rezepte.html"
+        },
+        {
+            "Rhabarber": "http://www.chefkoch.de/rs/s0/Rhabarber/Rezepte.html"
+        },
+        {
+            "Stachelbeeren": "http://www.chefkoch.de/rs/s0/Stachelbeeren/Rezepte.html"
+        },
+        {
+            "Blumenkohl": "http://www.chefkoch.de/rs/s0/Blumenkohl/Rezepte.html"
+        },
+        {
+            "dicke-Bohnen": "http://www.chefkoch.de/rs/s0/dicke-Bohnen/Rezepte.html"
+        },
+        {
+            "Brokkoli": "http://www.chefkoch.de/rs/s0/Brokkoli/Rezepte.html"
+        },
+        {
+            "Champignons": "http://www.chefkoch.de/rs/s0/Champignons/Rezepte.html"
+        },
+        {
+            "Fenchel": "http://www.chefkoch.de/rs/s0/Fenchel/Rezepte.html"
+        },
+        {
+            "Gurke": "http://www.chefkoch.de/rs/s0/Gurke/Rezepte.html"
+        },
+        {
+            "Kartoffeln": "http://www.chefkoch.de/rs/s0/Kartoffeln/Rezepte.html"
+        },
+        {
+            "Kohlrabi": "http://www.chefkoch.de/rs/s0/Kohlrabi/Rezepte.html"
+        },
+        {
+            "Lauch": "http://www.chefkoch.de/rs/s0/Lauch/Rezepte.html"
+        },
+        {
+            "Frühlingszwiebeln": "http://www.chefkoch.de/rs/s0/Frühlingszwiebeln/Rezepte.html"
+        },
+        {
+            "Mangold": "http://www.chefkoch.de/rs/s0/Mangold/Rezepte.html"
+        },
+        {
+            "Möhren": "http://www.chefkoch.de/rs/s0/Möhren/Rezepte.html"
+        },
+        {
+            "Radieschen": "http://www.chefkoch.de/rs/s0/Radieschen/Rezepte.html"
+        },
+        {
+            "Rotkohl": "http://www.chefkoch.de/rs/s0/Rotkohl/Rezepte.html"
+        },
+        {
+            "Spargel": "http://www.chefkoch.de/rs/s0/Spargel/Rezepte.html"
+        },
+        {
+            "Spitzkohl": "http://www.chefkoch.de/rs/s0/Spitzkohl/Rezepte.html"
+        },
+        {
+            "Weisskohl": "http://www.chefkoch.de/rs/s0/Weisskohl/Rezepte.html"
+        },
+        {
+            "Wirsingkohl": "http://www.chefkoch.de/rs/s0/Wirsingkohl/Rezepte.html"
+        },
+        {
+            "Zucchini": "http://www.chefkoch.de/rs/s0/Zucchini/Rezepte.html"
+        },
+        {
+            "Zuckerschoten": "http://www.chefkoch.de/rs/s0/Zuckerschoten/Rezepte.html"
+        },
+        {
+            "Eichblattsalat": "http://www.chefkoch.de/rs/s0/Eichblattsalat/Rezepte.html"
+        },
+        {
+            "Endiviensalat": "http://www.chefkoch.de/rs/s0/Endiviensalat/Rezepte.html"
+        },
+        {
+            "Kopfsalat": "http://www.chefkoch.de/rs/s0/Kopfsalat/Rezepte.html"
+        },
+        {
+            "Lollo-Rosso": "http://www.chefkoch.de/rs/s0/Lollo-Rosso/Rezepte.html"
+        }
+    ],
+    "humidity": {
+        "indoor": 63,
+        "unit": "%",
+        "flow_time_indoor": 1429017300,
+        "flow_indoor": [
+            56,
+            58,
+            61,
+            62,
+            62,
+            63,
+            61,
+            61,
+            57,
+            58,
+            58,
+            59,
+            60,
+            61,
+            61,
+            60,
+            57,
+            58,
+            59,
+            59,
+            60,
+            60,
+            61,
+            61,
+            61,
+            61,
+            61,
+            62,
+            62,
+            62,
+            62,
+            62,
+            62,
+            63,
+            59,
+            58,
+            57,
+            58,
+            58,
+            59,
+            59,
+            59,
+            59,
+            58,
+            55,
+            52,
+            50,
+            48
+        ],
+        "outdoor": 58,
+        "flow_time_outdoor": 1429017300,
+        "flow_outdoor": [
+            44,
+            49,
+            54,
+            56,
+            56,
+            56,
+            54,
+            53,
+            47,
+            50,
+            51,
+            53,
+            54,
+            55,
+            55,
+            51,
+            48,
+            50,
+            52,
+            53,
+            53,
+            54,
+            55,
+            54,
+            55,
+            55,
+            55,
+            55,
+            56,
+            56,
+            56,
+            56,
+            56,
+            56,
+            49,
+            51,
+            50,
+            51,
+            52,
+            53,
+            53,
+            53,
+            52,
+            50,
+            46,
+            43,
+            42,
+            39
+        ]
+    },
+    "noise": {
+        "indoor": 52,
+        "percentage": 0.6,
+        "origin": [
+            {
+                "tv": 7
+            },
+            {
+                "radio": 5
+            }
+        ],
+        "unit": "dB",
+        "flow_time_indoor": 1429017300,
+        "flow_indoor": [
+            48,
+            42,
+            41,
+            39,
+            40,
+            37,
+            35,
+            37,
+            39,
+            52,
+            49,
+            48,
+            45,
+            49,
+            46,
+            43,
+            36,
+            35,
+            35,
+            35,
+            35,
+            35,
+            35,
+            35,
+            35,
+            35,
+            35,
+            35,
+            35,
+            35,
+            35,
+            35,
+            35,
+            35,
+            42,
+            40,
+            43,
+            52,
+            48,
+            41,
+            39,
+            38,
+            36,
+            40,
+            46,
+            50,
+            36,
+            35
+        ]
+    },
+    "pollen": [
+        {
+            "Erle": 0.2
+        },
+        {
+            "Hasel": 0.2
+        },
+        {
+            "Ulme": 0.2
+        },
+        {
+            "Weide": 0.9
+        },
+        {
+            "Pappel": 0.6
+        },
+        {
+            "Ahorn": 0.9
+        },
+        {
+            "Eibe": 0.9
+        },
+        {
+            "Birke": 0.9
+        },
+        {
+            "Eiche": 0.9
+        },
+        {
+            "Esche": 0.9
+        },
+        {
+            "Hainbuche": 0.9
+        },
+        {
+            "Raps": 0.9
+        },
+        {
+            "Esche": 0.9
+        },
+        {
+            "Flieder": 0.9
+        },
+        {
+            "Platane": 0.9
+        },
+        {
+            "Rotbuche": 0.9
+        },
+        {
+            "Spitzwegerich": 0.9
+        },
+        {
+            "Ampfer": 0.9
+        },
+        {
+            "Loewenzahn": 0.9
+        },
+        {
+            "Fichte": 0.9
+        },
+        {
+            "Walnuss": 0.9
+        },
+        {
+            "Hopfen": 0.9
+        },
+        {
+            "Akazie": 0.9
+        },
+        {
+            "Rosskastanie": 0.9
+        },
+        {
+            "Weizen": 0.9
+        },
+        {
+            "Graeser": 0.9
+        },
+        {
+            "Kiefer": 0.9
+        },
+        {
+            "Holunder": 0.6
+        },
+        {
+            "Hafer": 0.6
+        },
+        {
+            "Roggen": 0.6
+        },
+        {
+            "Tanne": 0.6
+        },
+        {
+            "Gerste": 0.6
+        },
+        {
+            "Linde": 0.2
+        },
+        {
+            "Gaensefuss": 0.2
+        },
+        {
+            "Beifuss": 0.2
+        },
+        {
+            "Goldrute": 0.2
+        },
+        {
+            "Brennessel": 0.2
+        },
+        {
+            "Mais": 0.2
+        },
+        {
+            "Nessel": 0.2
+        }
+    ],
+    "device": {
+        "battery": 100,
+        "wifiState": 2,
+        "alt": 454,
+        "fstate": 3,
+        "lat": 48.7355183,
+        "lng": 9.1032613
+    },
+    "stresslevel": {
+        "indoor": 3,
+        "percentage": 0.9,
+        "origin": [
+            {
+                "temperature": 1
+            },
+            {
+                "humidity": 7
+            },
+            {
+                "co2": 10
+            },
+            {
+                "noise": 7
+            }
+        ],
+        "message": "Die Umgebung ist sehr hektisch. Überprüfe deine Geräte und Luftqualität."
+    },
+    "temperature": {
+        "indoor": 21.9,
+        "unit": "°C",
+        "flow_time_indoor": 1429017300,
+        "flow_indoor": [
+            22.7,
+            21.6,
+            21.2,
+            21.6,
+            21.9,
+            22.2,
+            22.5,
+            22.6,
+            22.1,
+            21.7,
+            21.6,
+            21.6,
+            21.6,
+            21.7,
+            21.7,
+            21.6,
+            21,
+            21.1,
+            21.1,
+            21,
+            20.9,
+            20.9,
+            20.9,
+            20.8,
+            20.7,
+            20.7,
+            20.6,
+            20.6,
+            20.5,
+            20.5,
+            20.4,
+            20.3,
+            20.2,
+            20.2,
+            20,
+            19.9,
+            20,
+            20.1,
+            20.3,
+            20.5,
+            20.6,
+            20.8,
+            20.8,
+            20.8,
+            21.1,
+            21.2,
+            21.3,
+            21.3
+        ],
+        "outdoor": 21.7,
+        "flow_time_outdoor": 1429017300,
+        "flow_outdoor": [
+            24.4,
+            22.6,
+            21.8,
+            21.7,
+            21.9,
+            22.2,
+            22.6,
+            22.8,
+            22.5,
+            22.1,
+            22,
+            21.9,
+            21.9,
+            21.9,
+            21.9,
+            21.8,
+            21.4,
+            21.3,
+            21.3,
+            21.3,
+            21.2,
+            21.1,
+            21.1,
+            21.1,
+            21,
+            20.9,
+            20.9,
+            20.8,
+            20.8,
+            20.7,
+            20.7,
+            20.6,
+            20.6,
+            20.6,
+            20.4,
+            20.2,
+            20.2,
+            20.3,
+            20.5,
+            20.7,
+            20.8,
+            21,
+            21.1,
+            21.1,
+            21.3,
+            21.4,
+            21.5,
+            21.5
+        ]
+    },
+    "forecast": [
+        {
+            "dt": 1433934000,
+            "temp": {
+                "min": 17.18,
+                "max": 19.32
+            },
+            "weather": {
+                "id": 804,
+                "main": "Clouds",
+                "description": "wolkenbedeckt",
+                "icon": "04d"
+            },
+            "rain": 0
+        },
+        {
+            "dt": 1434020400,
+            "temp": {
+                "min": 17.65,
+                "max": 25.64
+            },
+            "weather": {
+                "id": 800,
+                "main": "Clear",
+                "description": "klarer Himmel",
+                "icon": "02d"
+            },
+            "rain": 0
+        },
+        {
+            "dt": 1434020400,
+            "temp": {
+                "min": 17.65,
+                "max": 25.64
+            },
+            "weather": {
+                "id": 800,
+                "main": "Clear",
+                "description": "klarer Himmel",
+                "icon": "02d"
+            },
+            "rain": 0
+        }
+    ]
+}

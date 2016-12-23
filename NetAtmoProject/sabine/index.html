@@ -1,0 +1,115 @@
+<!DOCTYPE HTML>
+
+<html lang="de">
+
+<head>
+	<meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" href="css/styles.css">
+	<title>URC - NetAtmo - Sabine</title>
+</head>
+
+<body>
+	<div id="grid">
+		<div id="temperature" class="tile">
+			<figure>
+				<data class="right"></data>
+			</figure>
+		</div>
+		<div id="food" class="tile">
+			<figure></figure>
+		</div>
+		<div id="weather" class="tile">
+			<figure></figure>
+		</div>
+		<div id="stresslevel" class="tile">
+			<figure></figure>
+		</div>
+		<div id="noise" class="tile">
+			<figure>
+				<data class="left"></data>
+			</figure>
+		</div>
+		<div id="airquality" class="tile">
+			<figure></figure>
+		</div>
+	</div>
+
+	<div id="detail" class="hide">
+		<div class="temperature hide">
+			<h1>Temperatur</h1>
+			<div>
+				<div>
+					<h2>Innen</h2>
+					<data class="indoor"></data>
+				</div>
+				<div>
+					<figure></figure>
+				</div>
+				<div>
+					<h2>Außen</h2>
+					<data class="outdoor"></data>
+				</div>
+			</div>
+		</div>
+		<div class="food hide">
+			<h1>Markt</h1>
+			<div class="slider limit-left" data-position="0">
+				<button class="left"></button>
+				<button class="right"></button>
+			  <ul>
+			  </ul>
+			</div>
+		</div>
+		<div class="weather hide">
+			<h1>Wetter</h1>
+			<div class="slider limit-left" data-position="0">
+				<header>
+					<a href="heute" class="active">Heute</a>
+					<a href="morgen">Morgen</a>
+					<a href="ubermorgen">Übermorgen</a>
+				</header>
+			  <ul>
+			  </ul>
+			</div>
+		</div>
+		<div class="stresslevel hide">
+			<h1>Stresslevel</h1>
+			<figure class="ampel"></figure>
+			<h2></h2>
+		</div>
+		<div class="noise hide">
+			<h1>Lautstärke</h1>
+			<figure class="ampel"></figure>
+			<data></data>
+			<h2>Quelle</h2>
+			<ul class="devices">
+				<li>
+					<img src="images/noise/tv.svg" alt="TV">
+				</li>
+				<li>
+					<img src="images/noise/box.svg" alt="Box">
+				</li>
+				<li>
+					<img src="images/noise/radio.svg" alt="Radio">
+				</li>
+			</ul>
+		</div>
+		<div class="airquality hide">
+			<h1>Luftqualität</h1>
+			<figure class="ampel"></figure>
+			<h2></h2>
+		</div>
+
+		<button id="clsBtn">
+			<img src="images/close.svg" alt="">
+		</button>
+	</div>
+
+	<script src="scripts/app.js"></script>
+
+</body>
+
+</html>

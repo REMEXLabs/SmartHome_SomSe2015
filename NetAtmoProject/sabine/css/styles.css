@@ -1,0 +1,776 @@
+/*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+/**
+ * 1. Set default font family to sans-serif.
+ * 2. Prevent iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+/* line 9, E:/Sites/urc/sabine/scss/normalize.scss */
+html {
+  font-family: sans-serif;
+  /* 1 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */ }
+
+/**
+ * Remove default margin.
+ */
+/* line 19, E:/Sites/urc/sabine/scss/normalize.scss */
+body {
+  margin: 0; }
+
+/* HTML5 display definitions
+   ========================================================================== */
+/**
+ * Correct `block` display not defined for any HTML5 element in IE 8/9.
+ * Correct `block` display not defined for `details` or `summary` in IE 10/11
+ * and Firefox.
+ * Correct `block` display not defined for `main` in IE 11.
+ */
+/* line 45, E:/Sites/urc/sabine/scss/normalize.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block; }
+
+/**
+ * 1. Correct `inline-block` display not defined in IE 8/9.
+ * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
+ */
+/* line 57, E:/Sites/urc/sabine/scss/normalize.scss */
+audio, canvas, progress, video {
+  display: inline-block;
+  /* 1 */
+  vertical-align: baseline;
+  /* 2 */ }
+
+/**
+ * Prevent modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+/* line 67, E:/Sites/urc/sabine/scss/normalize.scss */
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+/**
+ * Address `[hidden]` styling not present in IE 8/9/10.
+ * Hide the `template` element in IE 8/9/11, Safari, and Firefox < 22.
+ */
+/* line 78, E:/Sites/urc/sabine/scss/normalize.scss */
+[hidden], template {
+  display: none; }
+
+/* Links
+   ========================================================================== */
+/**
+ * Remove the gray background color from active links in IE 10.
+ */
+/* line 89, E:/Sites/urc/sabine/scss/normalize.scss */
+a {
+  background-color: transparent; }
+
+/**
+ * Improve readability when focused and also mouse hovered in all browsers.
+ */
+/* line 98, E:/Sites/urc/sabine/scss/normalize.scss */
+a:active, a:hover {
+  outline: 0; }
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
+ */
+/* line 109, E:/Sites/urc/sabine/scss/normalize.scss */
+abbr[title] {
+  border-bottom: 1px dotted; }
+
+/**
+ * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
+ */
+/* line 118, E:/Sites/urc/sabine/scss/normalize.scss */
+b, strong {
+  font-weight: bold; }
+
+/**
+ * Address styling not present in Safari and Chrome.
+ */
+/* line 126, E:/Sites/urc/sabine/scss/normalize.scss */
+dfn {
+  font-style: italic; }
+
+/**
+ * Address variable `h1` font-size and margin within `section` and `article`
+ * contexts in Firefox 4+, Safari, and Chrome.
+ */
+/* line 135, E:/Sites/urc/sabine/scss/normalize.scss */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0; }
+
+/**
+ * Address styling not present in IE 8/9.
+ */
+/* line 144, E:/Sites/urc/sabine/scss/normalize.scss */
+mark {
+  background: #ff0;
+  color: #000; }
+
+/**
+ * Address inconsistent and variable font size in all browsers.
+ */
+/* line 153, E:/Sites/urc/sabine/scss/normalize.scss */
+small {
+  font-size: 80%; }
+
+/**
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ */
+/* line 162, E:/Sites/urc/sabine/scss/normalize.scss */
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+/* line 169, E:/Sites/urc/sabine/scss/normalize.scss */
+sup {
+  top: -0.5em; }
+
+/* line 173, E:/Sites/urc/sabine/scss/normalize.scss */
+sub {
+  bottom: -0.25em; }
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove border when inside `a` element in IE 8/9/10.
+ */
+/* line 184, E:/Sites/urc/sabine/scss/normalize.scss */
+img {
+  border: 0; }
+
+/**
+ * Correct overflow not hidden in IE 9/10/11.
+ */
+/* line 192, E:/Sites/urc/sabine/scss/normalize.scss */
+svg:not(:root) {
+  overflow: hidden; }
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * Address margin not present in IE 8/9 and Safari.
+ */
+/* line 203, E:/Sites/urc/sabine/scss/normalize.scss */
+figure {
+  margin: 1em 40px; }
+
+/**
+ * Address differences between Firefox and other browsers.
+ */
+/* line 211, E:/Sites/urc/sabine/scss/normalize.scss */
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0; }
+
+/**
+ * Contain overflow in all browsers.
+ */
+/* line 221, E:/Sites/urc/sabine/scss/normalize.scss */
+pre {
+  overflow: auto; }
+
+/**
+ * Address odd `em`-unit font size rendering in all browsers.
+ */
+/* line 232, E:/Sites/urc/sabine/scss/normalize.scss */
+code, kbd, pre, samp {
+  font-family: monospace, monospace;
+  font-size: 1em; }
+
+/* Forms
+   ========================================================================== */
+/**
+ * Known limitation: by default, Chrome and Safari on OS X allow very limited
+ * styling of `select`, unless a `border` property is set.
+ */
+/**
+ * 1. Correct color not being inherited.
+ *    Known issue: affects color of disabled elements.
+ * 2. Correct font properties not being inherited.
+ * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
+ */
+/* line 256, E:/Sites/urc/sabine/scss/normalize.scss */
+button, input, optgroup, select, textarea {
+  color: inherit;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+  margin: 0;
+  /* 3 */ }
+
+/**
+ * Address `overflow` set to `hidden` in IE 8/9/10/11.
+ */
+/* line 266, E:/Sites/urc/sabine/scss/normalize.scss */
+button {
+  overflow: visible; }
+
+/**
+ * Address inconsistent `text-transform` inheritance for `button` and `select`.
+ * All other form control elements do not inherit `text-transform` values.
+ * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
+ * Correct `select` style inheritance in Firefox.
+ */
+/* line 278, E:/Sites/urc/sabine/scss/normalize.scss */
+button, select {
+  text-transform: none; }
+
+/**
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Correct inability to style clickable `input` types in iOS.
+ * 3. Improve usability and consistency of cursor style between image-type
+ *    `input` and others.
+ */
+/* line 293, E:/Sites/urc/sabine/scss/normalize.scss */
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+  cursor: pointer;
+  /* 3 */ }
+
+/**
+ * Re-set default cursor for disabled elements.
+ */
+/* line 303, E:/Sites/urc/sabine/scss/normalize.scss */
+button[disabled], html input[disabled] {
+  cursor: default; }
+
+/**
+ * Remove inner padding and border in Firefox 4+.
+ */
+/* line 312, E:/Sites/urc/sabine/scss/normalize.scss */
+button::-moz-focus-inner, input::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+/**
+ * Address Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+/* line 322, E:/Sites/urc/sabine/scss/normalize.scss */
+input {
+  line-height: normal; }
+
+/**
+ * It's recommended that you don't attempt to style these elements.
+ * Firefox's implementation doesn't respect box-sizing, padding, or width.
+ *
+ * 1. Address box sizing set to `content-box` in IE 8/9/10.
+ * 2. Remove excess padding in IE 8/9/10.
+ */
+/* line 335, E:/Sites/urc/sabine/scss/normalize.scss */
+input[type="checkbox"], input[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/**
+ * Fix the cursor style for Chrome's increment/decrement buttons. For certain
+ * `font-size` values of the `input`, it causes the cursor style of the
+ * decrement button to change from `default` to `text`.
+ */
+/* line 347, E:/Sites/urc/sabine/scss/normalize.scss */
+input[type="number"]::-webkit-inner-spin-button, input[type="number"]::-webkit-outer-spin-button {
+  height: auto; }
+
+/**
+ * 1. Address `appearance` set to `searchfield` in Safari and Chrome.
+ * 2. Address `box-sizing` set to `border-box` in Safari and Chrome
+ *    (include `-moz` to future-proof).
+ */
+/* line 357, E:/Sites/urc/sabine/scss/normalize.scss */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  /* 2 */
+  box-sizing: content-box; }
+
+/**
+ * Remove inner padding and search cancel button in Safari and Chrome on OS X.
+ * Safari (but not Chrome) clips the cancel button when the search input has
+ * padding (and `textfield` appearance).
+ */
+/* line 371, E:/Sites/urc/sabine/scss/normalize.scss */
+input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+/**
+ * Define consistent border, margin, and padding.
+ */
+/* line 379, E:/Sites/urc/sabine/scss/normalize.scss */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em; }
+
+/**
+ * 1. Correct `color` not being inherited in IE 8/9/10/11.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ */
+/* line 390, E:/Sites/urc/sabine/scss/normalize.scss */
+legend {
+  border: 0;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/**
+ * Remove default vertical scrollbar in IE 8/9/10/11.
+ */
+/* line 399, E:/Sites/urc/sabine/scss/normalize.scss */
+textarea {
+  overflow: auto; }
+
+/**
+ * Don't inherit the `font-weight` (applied by a rule above).
+ * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
+ */
+/* line 408, E:/Sites/urc/sabine/scss/normalize.scss */
+optgroup {
+  font-weight: bold; }
+
+/* Tables
+   ========================================================================== */
+/**
+ * Remove most spacing between table cells.
+ */
+/* line 419, E:/Sites/urc/sabine/scss/normalize.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* line 425, E:/Sites/urc/sabine/scss/normalize.scss */
+td, th {
+  padding: 0; }
+
+/* line 21, E:/Sites/urc/sabine/scss/styles.scss */
+body, html {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  width: 100%;
+  height: 100%;
+  background-color: #ccc;
+  background-size: cover; }
+
+/* Grid For Tiles */
+/* line 30, E:/Sites/urc/sabine/scss/styles.scss */
+#grid {
+  height: 100%;
+  width: 100%;
+  padding: 0; }
+  /* line 36, E:/Sites/urc/sabine/scss/styles.scss */
+  #grid.detail .tile {
+    padding: 20px; }
+    /* line 38, E:/Sites/urc/sabine/scss/styles.scss */
+    #grid.detail .tile figure {
+      background-position: center; }
+    /* line 41, E:/Sites/urc/sabine/scss/styles.scss */
+    #grid.detail .tile data {
+      display: none; }
+    /* line 45, E:/Sites/urc/sabine/scss/styles.scss */
+    #grid.detail .tile.active figure {
+      border-radius: 0 20%;
+      background-color: rgba(0, 0, 0, 0.001); }
+
+/* Tiles List View*/
+/* line 56, E:/Sites/urc/sabine/scss/styles.scss */
+.tile {
+  padding: 25px;
+  float: left;
+  clear: none;
+  box-sizing: border-box;
+  overflow: hidden; }
+  /* line 63, E:/Sites/urc/sabine/scss/styles.scss */
+  .tile figure {
+    width: 100%;
+    height: 100%;
+    transition-property: border-radius, box-shadow, background-color;
+    transition-duration: 250ms;
+    margin: 0;
+    position: relative;
+    border-radius: 40px 0;
+    box-shadow: 0px 0px 25px 10px #A5A5A5;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.7);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80%;
+    display: table;
+    text-align: center; }
+    /* line 81, E:/Sites/urc/sabine/scss/styles.scss */
+    .tile figure data {
+      line-height: normal;
+      font-size: 3em;
+      display: table-cell;
+      vertical-align: middle; }
+      /* line 86, E:/Sites/urc/sabine/scss/styles.scss */
+      .tile figure data.left {
+        padding-right: 50%; }
+      /* line 89, E:/Sites/urc/sabine/scss/styles.scss */
+      .tile figure data.right {
+        padding-left: 50%; }
+  /* line 96, E:/Sites/urc/sabine/scss/styles.scss */
+  .tile#temperature figure {
+    background-image: url('../images/temperature.svg');
+    background-position: -50% center; }
+  /* line 102, E:/Sites/urc/sabine/scss/styles.scss */
+  .tile#food figure {
+    background-image: url('../images/market.svg'); }
+  /* line 107, E:/Sites/urc/sabine/scss/styles.scss */
+  .tile#weather figure {
+    background-image: url('../images/weather.svg'); }
+  /* line 112, E:/Sites/urc/sabine/scss/styles.scss */
+  .tile#stresslevel figure {
+    background-image: url('../images/stresslevel.svg'); }
+  /* line 117, E:/Sites/urc/sabine/scss/styles.scss */
+  .tile#noise figure {
+    background-image: url('../images/noise.svg');
+    background-position: 150% center; }
+  /* line 123, E:/Sites/urc/sabine/scss/styles.scss */
+  .tile#airquality figure {
+    background-image: url('../images/airquality.svg'); }
+
+/* line 130, E:/Sites/urc/sabine/scss/styles.scss */
+#detail {
+  box-sizing: border-box;
+  padding: 20px;
+  position: relative; }
+  /* line 135, E:/Sites/urc/sabine/scss/styles.scss */
+  #detail > div {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.7);
+    box-shadow: 0 0 10px 10px rgba(255, 255, 255, 0.7);
+    box-sizing: border-box;
+    border-radius: 40px;
+    padding: 20px;
+    overflow: hidden; }
+    /* line 144, E:/Sites/urc/sabine/scss/styles.scss */
+    #detail > div h1 {
+      font-size: 3em;
+      line-height: 1em;
+      margin: 0 0 20px 0; }
+    /* line 149, E:/Sites/urc/sabine/scss/styles.scss */
+    #detail > div h2 {
+      font-size: 2.5em; }
+    /* line 152, E:/Sites/urc/sabine/scss/styles.scss */
+    #detail > div data {
+      font-size: 3em; }
+  /* line 157, E:/Sites/urc/sabine/scss/styles.scss */
+  #detail .ampel {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border: 20px solid white;
+    border-radius: 50%;
+    box-shadow: 5px 5px 40px -10px #8E8D8D;
+    margin: 40px; }
+    /* line 166, E:/Sites/urc/sabine/scss/styles.scss */
+    #detail .ampel.ampel-1 {
+      background-color: #2ecc71; }
+    /* line 169, E:/Sites/urc/sabine/scss/styles.scss */
+    #detail .ampel.ampel-2 {
+      background-color: #f1c40f; }
+    /* line 172, E:/Sites/urc/sabine/scss/styles.scss */
+    #detail .ampel.ampel-3 {
+      background-color: #c0392b; }
+  /* line 177, E:/Sites/urc/sabine/scss/styles.scss */
+  #detail .slider {
+    height: 80%;
+    overflow: hidden;
+    position: relative;
+    margin-top: 40px; }
+    /* line 182, E:/Sites/urc/sabine/scss/styles.scss */
+    #detail .slider.limit-left > button.left {
+      opacity: 0.2; }
+    /* line 185, E:/Sites/urc/sabine/scss/styles.scss */
+    #detail .slider.limit-right > button.right {
+      opacity: 0.2; }
+    /* line 188, E:/Sites/urc/sabine/scss/styles.scss */
+    #detail .slider > button {
+      position: absolute;
+      top: 50%;
+      margin-top: -30px;
+      border: none;
+      background-color: rgba(1, 1, 1, 0.3);
+      height: 60px;
+      width: 60px;
+      z-index: 5;
+      background-size: 75%;
+      background-position: center;
+      background-repeat: no-repeat; }
+      /* line 200, E:/Sites/urc/sabine/scss/styles.scss */
+      #detail .slider > button.right {
+        background-image: url(../images/slide_right.svg);
+        right: 0px; }
+      /* line 204, E:/Sites/urc/sabine/scss/styles.scss */
+      #detail .slider > button.left {
+        background-image: url(../images/slide_left.svg);
+        left: 0px; }
+    /* line 209, E:/Sites/urc/sabine/scss/styles.scss */
+    #detail .slider ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      position: relative;
+      transition: right 250ms ease-in-out;
+      right: 0px; }
+      /* line 217, E:/Sites/urc/sabine/scss/styles.scss */
+      #detail .slider ul li {
+        float: left;
+        height: 100%; }
+        /* line 220, E:/Sites/urc/sabine/scss/styles.scss */
+        #detail .slider ul li figure {
+          height: 100%;
+          padding: 10px;
+          margin: 0; }
+          /* line 224, E:/Sites/urc/sabine/scss/styles.scss */
+          #detail .slider ul li figure img {
+            box-shadow: 2px 2px 10px 1px rgba(1, 1, 1, 0.4); }
+  /* line 234, E:/Sites/urc/sabine/scss/styles.scss */
+  #detail .food .slider img {
+    min-height: 80%;
+    max-height: 80%;
+    height: 80%;
+    margin: 0 auto;
+    display: block; }
+  /* line 241, E:/Sites/urc/sabine/scss/styles.scss */
+  #detail .food .slider figcaption {
+    height: 20%; }
+    /* line 243, E:/Sites/urc/sabine/scss/styles.scss */
+    #detail .food .slider figcaption h2 {
+      margin: 0;
+      font-size: 2.5em;
+      text-align: center; }
+  /* line 253, E:/Sites/urc/sabine/scss/styles.scss */
+  #detail .temperature > div {
+    width: 100%;
+    height: 70%;
+    margin-top: 20%; }
+    /* line 257, E:/Sites/urc/sabine/scss/styles.scss */
+    #detail .temperature > div:after {
+      clear: both;
+      content: '';
+      display: block; }
+    /* line 262, E:/Sites/urc/sabine/scss/styles.scss */
+    #detail .temperature > div > div {
+      width: 33.33%;
+      height: 80%;
+      float: left; }
+      /* line 266, E:/Sites/urc/sabine/scss/styles.scss */
+      #detail .temperature > div > div > img {
+        height: 100%;
+        width: auto; }
+      /* line 270, E:/Sites/urc/sabine/scss/styles.scss */
+      #detail .temperature > div > div:nth-child(1) {
+        text-align: right; }
+      /* line 273, E:/Sites/urc/sabine/scss/styles.scss */
+      #detail .temperature > div > div:nth-child(2) {
+        background-image: url(../images/temperature.svg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat; }
+  /* line 286, E:/Sites/urc/sabine/scss/styles.scss */
+  #detail .weather .slider header {
+    margin-bottom: 40px; }
+    /* line 288, E:/Sites/urc/sabine/scss/styles.scss */
+    #detail .weather .slider header > a {
+      color: grey;
+      text-decoration: none;
+      font-size: 2.2em;
+      margin-right: 16px; }
+      /* line 293, E:/Sites/urc/sabine/scss/styles.scss */
+      #detail .weather .slider header > a.active {
+        color: black; }
+  /* line 300, E:/Sites/urc/sabine/scss/styles.scss */
+  #detail .weather .slider .slide > img {
+    min-width: 50%;
+    max-width: 50%;
+    width: 50%;
+    float: left; }
+  /* line 306, E:/Sites/urc/sabine/scss/styles.scss */
+  #detail .weather .slider .slide figcaption {
+    float: right;
+    width: 50%;
+    padding: 20px;
+    box-sizing: border-box; }
+    /* line 311, E:/Sites/urc/sabine/scss/styles.scss */
+    #detail .weather .slider .slide figcaption h3 {
+      display: block;
+      margin: 0 auto;
+      font-size: 1.8em;
+      margin-bottom: 20px;
+      word-wrap: break-word; }
+      /* line 317, E:/Sites/urc/sabine/scss/styles.scss */
+      #detail .weather .slider .slide figcaption h3.rain {
+        padding-left: 50px;
+        background-image: url(../images/weather/rain.svg);
+        background-position: left top;
+        background-size: 35px;
+        background-repeat: no-repeat; }
+  /* line 328, E:/Sites/urc/sabine/scss/styles.scss */
+  #detail .weather .slider:after {
+    content: '';
+    display: block;
+    clear: both; }
+  /* line 337, E:/Sites/urc/sabine/scss/styles.scss */
+  #detail .noise .ampel {
+    float: left; }
+  /* line 340, E:/Sites/urc/sabine/scss/styles.scss */
+  #detail .noise data {
+    line-height: 140px;
+    margin: 40px;
+    display: inline-block; }
+    /* line 344, E:/Sites/urc/sabine/scss/styles.scss */
+    #detail .noise data:after {
+      clear: both; }
+  /* line 348, E:/Sites/urc/sabine/scss/styles.scss */
+  #detail .noise h2 {
+    margin: 0; }
+  /* line 351, E:/Sites/urc/sabine/scss/styles.scss */
+  #detail .noise .devices {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    width: 100%; }
+    /* line 356, E:/Sites/urc/sabine/scss/styles.scss */
+    #detail .noise .devices > li {
+      margin: 0;
+      float: left;
+      width: 33%;
+      padding: 10px;
+      box-sizing: border-box; }
+      /* line 363, E:/Sites/urc/sabine/scss/styles.scss */
+      #detail .noise .devices > li > img {
+        width: 100%;
+        height: auto;
+        opacity: 0.5; }
+        /* line 367, E:/Sites/urc/sabine/scss/styles.scss */
+        #detail .noise .devices > li > img.active {
+          opacity: 1; }
+    /* line 373, E:/Sites/urc/sabine/scss/styles.scss */
+    #detail .noise .devices:after {
+      clear: both;
+      display: block;
+      content: ''; }
+  /* line 381, E:/Sites/urc/sabine/scss/styles.scss */
+  #detail #clsBtn {
+    position: absolute;
+    right: 40px;
+    top: 40px;
+    width: 60px;
+    height: 60px;
+    border: none;
+    padding: 5px;
+    background-color: transparent; }
+    /* line 391, E:/Sites/urc/sabine/scss/styles.scss */
+    #detail #clsBtn > img {
+      width: 100%;
+      height: 100%; }
+
+@media screen and (orientation: portrait) {
+  /* line 400, E:/Sites/urc/sabine/scss/styles.scss */
+  #detail {
+    width: 100%;
+    height: 60%; }
+  /* line 405, E:/Sites/urc/sabine/scss/styles.scss */
+  #grid.detail {
+    height: 40%; }
+    /* line 407, E:/Sites/urc/sabine/scss/styles.scss */
+    #grid.detail .tile {
+      height: 50%;
+      width: 33.33%; }
+  /* line 411, E:/Sites/urc/sabine/scss/styles.scss */
+  #grid .tile {
+    height: 33%;
+    width: 50%; } }
+
+@media screen and (orientation: landscape) {
+  /* line 418, E:/Sites/urc/sabine/scss/styles.scss */
+  #detail {
+    height: 100%;
+    width: 60%;
+    float: left; }
+  /* line 424, E:/Sites/urc/sabine/scss/styles.scss */
+  #grid.detail {
+    float: left;
+    width: 40%; }
+    /* line 427, E:/Sites/urc/sabine/scss/styles.scss */
+    #grid.detail .tile {
+      height: 33%;
+      width: 50%; }
+  /* line 431, E:/Sites/urc/sabine/scss/styles.scss */
+  #grid .tile {
+    height: 50%;
+    width: 33.33%; } }
+
+/* line 441, E:/Sites/urc/sabine/scss/styles.scss */
+.hide {
+  display: none; }
+
+/* line 446, E:/Sites/urc/sabine/scss/styles.scss */
+.temp-low > figure {
+  box-shadow: 0px 0px 25px 10px #3498db; }
+
+/* line 449, E:/Sites/urc/sabine/scss/styles.scss */
+.temp-good > figure {
+  box-shadow: 0px 0px 25px 10px #2ecc71; }
+
+/* line 452, E:/Sites/urc/sabine/scss/styles.scss */
+.temp-warm > figure {
+  box-shadow: 0px 0px 25px 10px #f39c12; }
+
+/* line 455, E:/Sites/urc/sabine/scss/styles.scss */
+.temp-hot > figure {
+  box-shadow: 0px 0px 25px 10px #c0392b; }
+
+/* line 461, E:/Sites/urc/sabine/scss/styles.scss */
+.noise-1 > figure, .stresslevel-1 > figure, .airquality-1 > figure {
+  box-shadow: 0px 0px 25px 10px #2ecc71; }
+
+/* line 466, E:/Sites/urc/sabine/scss/styles.scss */
+.noise-2 > figure, .stresslevel-2 > figure, .airquality-2 > figure {
+  box-shadow: 0px 0px 25px 10px #f1c40f; }
+
+/* line 471, E:/Sites/urc/sabine/scss/styles.scss */
+.noise-3 > figure, .stresslevel-3 > figure, .airquality-3 > figure {
+  box-shadow: 0px 0px 25px 10px #c0392b; }
+
+/* line 477, E:/Sites/urc/sabine/scss/styles.scss */
+.active.temp-low > figure {
+  box-shadow: 0px 0px 10px 10px #3498db; }
+/* line 480, E:/Sites/urc/sabine/scss/styles.scss */
+.active.temp-good > figure {
+  box-shadow: 0px 0px 10px 10px #2ecc71; }
+/* line 483, E:/Sites/urc/sabine/scss/styles.scss */
+.active.temp-warm > figure {
+  box-shadow: 0px 0px 10px 10px #f39c12; }
+/* line 486, E:/Sites/urc/sabine/scss/styles.scss */
+.active.temp-hot > figure {
+  box-shadow: 0px 0px 10px 10px #c0392b; }
+/* line 492, E:/Sites/urc/sabine/scss/styles.scss */
+.active.noise-1 > figure, .active.stresslevel-1 > figure, .active.airquality-1 > figure {
+  box-shadow: 0px 0px 10px 10px #2ecc71; }
+/* line 497, E:/Sites/urc/sabine/scss/styles.scss */
+.active.noise-2 > figure, .active.stresslevel-2 > figure, .active.airquality-2 > figure {
+  box-shadow: 0px 0px 10px 10px #f1c40f; }
+/* line 502, E:/Sites/urc/sabine/scss/styles.scss */
+.active.noise-3 > figure, .active.stresslevel-3 > figure, .active.airquality-3 > figure {
+  box-shadow: 0px 0px 10px 10px #c0392b; }

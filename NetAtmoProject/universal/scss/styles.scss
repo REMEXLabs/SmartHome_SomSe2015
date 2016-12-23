@@ -1,0 +1,411 @@
+@import "normalize";
+@import "colors";
+
+
+body, html {
+	font-family: 'Segoe UI', Arial, sans-serif;
+	background-color: #636363;
+	text-transform: capitalize;
+}
+
+// List Reset
+@mixin ulReset {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+// a Reset
+@mixin aReset {
+	text-decoration: none;
+	color: $white;
+}
+
+
+body {
+	font-family: 'Segoe UI', sans-serif ;
+	color: $white;
+}
+
+
+nav#navbar {
+	position: fixed;
+	top: 0px;
+	width: 50px;
+	height: 100%;
+	overflow: hidden;
+	transition-property: width;
+	transition-duration: 250ms;
+	background-color: $midnight;
+	z-index: 2;
+	overflow-y: auto;
+
+	> button {
+		width: 50px;
+		height: 50px;
+		border: none;
+		outline: none;
+		padding: 5px;
+		background-size: 40px;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-color: transparent;
+		&#navBtn {
+			background-image: url('../images/menu.svg');
+		}
+		&#settingsBtn {
+			position: absolute;
+			left: 190px;
+			background-image: url('../images/settings.svg');
+			transition-property: left;
+			transition-duration: 250ms;
+		}
+	}
+
+	> ul {
+		@include ulReset;
+		width: 100%;
+		border-top: 1px solid rgba(255, 255, 255, 0.1);
+		> li {
+			width: 300px;
+			height: 50px;
+			background-color: transparent;
+			border-width: 0;
+			overflow: hidden;
+			transition-property: background-color, border-width, height;
+			transition-duration: 500ms;
+			> a {
+				@include aReset;
+				display: inline-block;
+				width: 250px;
+				> img {
+					float: left;
+					width: 30px;
+					height: 30px;
+					margin: 10px;
+				}
+				> h3 {
+					float: left;
+					margin: 0 20px 0;
+					line-height: 50px;
+				}
+				&:after {
+					content: "";
+					display: block;
+					clear: both;
+				}
+			}
+			> input {
+				width: 30px;
+				height: 30px;
+				margin: 10px;
+				float: right;
+			}
+			&.active {
+				background-color: rgba(255,255,255,0.2);
+				border-left: 5px solid rgba(255,255,255,0.5);
+				> a > img {
+					margin-left: 5px;
+				}
+			}
+			&.hide {
+				height: 0px;
+			}
+		}
+	}
+
+	&.active {
+		width: 240px;
+		&.settings {
+			width: 300px;
+			#settingsBtn {
+				left: 250px;
+			}
+			li.hide {
+				height: 50px;
+				background-color: rgba(1,1,1,0.2);
+			}
+		}
+	}
+}
+
+main#main {
+	position: relative;
+	margin-left: 50px;
+	padding: 10px;
+	> section {
+		margin-bottom: 140px;
+		> header {
+			margin:  40px 0px 60px 0;
+			> img {
+				float: left;
+				width: 100px;
+				height: 100px;
+			}
+			> h1 {
+				font-size: 5em;
+				float: left;
+				line-height: 100px;
+				margin: 0 40px 0;
+			}
+			&:after {
+				content: "";
+				display: block;
+				clear: both;
+			}
+		}
+		> main {
+			> figure {
+				float: left;
+				width: 50%;
+				margin: 0;
+				padding: 10px;
+				box-sizing: border-box;
+				@media (min-width: 768px) {
+					width: 33.333%;
+				}
+				@media (min-width: 1280px) {
+					width: 25%;
+				}
+				> img {
+					width: 100%;
+				}
+				> figcaption {
+					position: relative;
+					min-height: 80px;
+					> h2 {
+						margin: 0.5em 0 0.5em 40px;
+						line-height: 40px;
+						word-break: break-all;
+					}
+					> a {
+						position: absolute;
+						left: 0;
+						top: 0;
+						display: block;
+						height: 40px;
+						width: 40px;
+						background-image: url('../images/cook.svg');
+						background-size: 40px;
+						background-repeat: no-repeat;
+						background-postion: center;
+					}
+				}
+			}
+			> div {
+				> h3 {
+					margin: 0 10px;
+					font-size: 1.5em;
+				}
+				> progress {
+					display: block;
+					box-sizing: border-box;
+					margin: 20px 0;
+					width: 100%;
+					height: 40px;
+					padding: 0 10px;
+					&[value]{
+						-webkit-appearance: none;
+	  				appearance: none;
+						&::-webkit-progress-bar {
+							background: -webkit-linear-gradient(left, green, yellow, red);
+							background: -o-linear-gradient(left, green, yellow, red);
+							background: linear-gradient(to right, green, yellow, red);
+							box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+						}
+						&::-webkit-progress-value {
+							background-color: rgba(255,255,255,0.4);
+							border-right: 2px solid black;
+						}
+					}
+				}
+			}
+			> data {
+				font-size: 5em;
+				line-height: 120px;
+				margin: 0 10px;
+				display: block;
+    			text-align: center;
+    			margin-bottom: 60px;
+				&.indoor {
+					margin-right: 20px;
+				}
+				&.outdoor {
+					margin-left: 20px;
+				}
+			}
+			> canvas.origins {
+				margin: 0 10px;
+			}
+			&.list {
+				&:after {
+					display: block;
+					content: '';
+					clear: both;
+				}
+			}
+		}
+		&#device {
+			main {
+				> section {
+					> div {
+						margin-bottom: 40px;
+						> img, > figure {
+							position: relative;
+							margin: 0;
+							padding: 0;
+							width: 100%;
+							@media (min-width: 640px) {
+								float: right;
+								margin: 0 20px;
+								width: 25%;
+							}
+							height: 100%;
+							&.left {
+								float: left;
+							}
+							> img {
+								width: 100%;
+							}
+							> figcaption {
+								position: absolute;
+								top: 0;
+								left: 0;
+
+								width: 100%;
+								height: 100%;
+								display: block;
+								font-size: 2em;
+								@media (min-width: 768px) {
+									font-size: 3em;
+								}
+								@media (min-width: 1200px) {
+									font-size: 5em;
+								}
+								> data {
+									position: relative;
+									width: 100%;
+									text-align: center;
+									display: block;
+									margin-top: 33%;
+								}
+							}
+
+						}
+						&:after {
+							clear: both;
+							display: block;
+							content: '';
+						}
+					}
+					> img {
+						width: 33.33%;
+						float: left;
+						padding: 20px;
+						box-sizing: border-box;
+					}
+					> data.battery {
+						display: block;
+						float: left;
+						width: 33.333%;
+						font-size: 4em;
+						line-height: 3em;
+						text-align: center;
+
+					}
+					&:after {
+						clear: both;
+						content: '';
+						display: block;
+					}
+					&.mapWrapper {
+						margin: 40px 10px;
+						> .map {
+							height: 400px;
+							margin: 0;
+							padding: 0;
+							display: block;
+							> div {
+								height: 100%;
+								margin: 0;
+								padding: 0;
+							}
+							@media (min-width: 768px) {
+								height: 800px;
+							}
+						}
+						> data {
+							margin: 20px 0px;
+							font-size: 3em;
+							display: block;
+							@media (min-width: 768px) {
+								width: 33.333%;
+								float: left;
+							}
+						}
+					}
+				}
+			}
+		}
+		&#forecast {
+			> main {
+				> section {
+					width: 100%;
+					float: left;
+					padding: 10px;
+ 					box-sizing: border-box;
+					> h2 {
+						text-align: center;
+						font-size: 4em;
+					}
+					@media (min-width: 768px) {
+						width: 33.333%;
+						> h2 {
+							font-size: 3em;
+							text-align: left;
+						}
+					}
+					> figure {
+						margin: 0;
+						padding: 0;
+						> img {
+							width: 100%;
+						}
+						> figcaption {
+							> h3 {
+								font-size: 2em;
+								text-align: center;
+								&.rain {
+									background-image: url(../images/weather/rain.svg);
+									background-position: 40% center;
+									background-size: 40px;
+									background-repeat: no-repeat;
+								}
+								@media (min-width: 768px) {
+									text-align: left;
+									&.rain {
+										padding-left: 50px;
+										background-position: left center;
+									}
+								}
+							}
+						}
+					}
+				}
+				&:after {
+					display: block;
+					content: '';
+					clear: both;
+				}
+			}
+		}
+		&:after {
+			clear: both;
+			content: '';
+			display: block;
+		}
+		&.hide {
+			display: none;
+		}
+	}
+}

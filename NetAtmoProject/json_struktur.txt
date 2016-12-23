@@ -1,0 +1,32 @@
+{
+	// Airquality, barometer, co2, humidity, noise, stresslevel, temperature
+	"object": {
+		"indoor": number, -> Wert (einfache Aausgabe)
+		"flow_indoor" : array(number), -> Diagramm mit Verlauf
+		"outdoor" : number, -> Wert (einfache AUsgabe)
+		"flow_outdoor" : array(number), -> Diagramm mit Verlauf
+		"message": string,
+		"unit" : string,
+		"origin": [
+			{property: number(1-10)), ...
+		], -> Säulendiagramm (property = iconname, number = wert im diagramm)
+		"percentage" : number(0-1) -> Balken (Horizontal)
+	}
+
+	// Food
+	"object": [
+		{property: string(link)} -> Liste mit Bildern
+	]
+
+	// Pollen
+	"object": [
+		{property: number(1-3)} -> Liste mit Balken (horizontal)
+	]
+
+	// Settings
+		// Custom
+
+	//Forecast
+		// Custom
+
+}

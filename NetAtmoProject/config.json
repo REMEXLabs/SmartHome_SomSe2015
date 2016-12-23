@@ -1,0 +1,16 @@
+{
+	"openhab_ip_and_port" 	: "192.168.33.33:8080",
+	"openWeatherMap_app_id"	: "a1226a9bd9130f264545304f7738c10c",
+	"server_port"			: 1337,
+
+	"device_id" 			: "70:ee:50:12:be:10",
+	"module_id" 			: "02:00:00:12:d6:4c",
+	"netAtmo_client_id"		: "552d1ba21e7759ef905d9b6a",
+	"netAtmo_client_secret"	: "ghffFwPKUKLGhlGX8mY5dwwX4UGFa9mk",
+	"netAtmo_username"		: "kk114%40hdm-stuttgart.de",
+	"netAtmo_password"		: "HdMurc2015zPq7!", 
+	"netAtmo_history_scale"	: "30min",
+	"netAtmo_limit_of_entry": 48
+	
+
+}

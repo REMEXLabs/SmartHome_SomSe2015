@@ -1,0 +1,733 @@
+/*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+/**
+ * 1. Set default font family to sans-serif.
+ * 2. Prevent iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+/* line 9, E:/Sites/urc/universal/scss/normalize.scss */
+html {
+  font-family: sans-serif;
+  /* 1 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */ }
+
+/**
+ * Remove default margin.
+ */
+/* line 19, E:/Sites/urc/universal/scss/normalize.scss */
+body {
+  margin: 0; }
+
+/* HTML5 display definitions
+   ========================================================================== */
+/**
+ * Correct `block` display not defined for any HTML5 element in IE 8/9.
+ * Correct `block` display not defined for `details` or `summary` in IE 10/11
+ * and Firefox.
+ * Correct `block` display not defined for `main` in IE 11.
+ */
+/* line 45, E:/Sites/urc/universal/scss/normalize.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block; }
+
+/**
+ * 1. Correct `inline-block` display not defined in IE 8/9.
+ * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
+ */
+/* line 57, E:/Sites/urc/universal/scss/normalize.scss */
+audio, canvas, progress, video {
+  display: inline-block;
+  /* 1 */
+  vertical-align: baseline;
+  /* 2 */ }
+
+/**
+ * Prevent modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+/* line 67, E:/Sites/urc/universal/scss/normalize.scss */
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+/**
+ * Address `[hidden]` styling not present in IE 8/9/10.
+ * Hide the `template` element in IE 8/9/11, Safari, and Firefox < 22.
+ */
+/* line 78, E:/Sites/urc/universal/scss/normalize.scss */
+[hidden], template {
+  display: none; }
+
+/* Links
+   ========================================================================== */
+/**
+ * Remove the gray background color from active links in IE 10.
+ */
+/* line 89, E:/Sites/urc/universal/scss/normalize.scss */
+a {
+  background-color: transparent; }
+
+/**
+ * Improve readability when focused and also mouse hovered in all browsers.
+ */
+/* line 98, E:/Sites/urc/universal/scss/normalize.scss */
+a:active, a:hover {
+  outline: 0; }
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
+ */
+/* line 109, E:/Sites/urc/universal/scss/normalize.scss */
+abbr[title] {
+  border-bottom: 1px dotted; }
+
+/**
+ * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
+ */
+/* line 118, E:/Sites/urc/universal/scss/normalize.scss */
+b, strong {
+  font-weight: bold; }
+
+/**
+ * Address styling not present in Safari and Chrome.
+ */
+/* line 126, E:/Sites/urc/universal/scss/normalize.scss */
+dfn {
+  font-style: italic; }
+
+/**
+ * Address variable `h1` font-size and margin within `section` and `article`
+ * contexts in Firefox 4+, Safari, and Chrome.
+ */
+/* line 135, E:/Sites/urc/universal/scss/normalize.scss */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0; }
+
+/**
+ * Address styling not present in IE 8/9.
+ */
+/* line 144, E:/Sites/urc/universal/scss/normalize.scss */
+mark {
+  background: #ff0;
+  color: #000; }
+
+/**
+ * Address inconsistent and variable font size in all browsers.
+ */
+/* line 153, E:/Sites/urc/universal/scss/normalize.scss */
+small {
+  font-size: 80%; }
+
+/**
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ */
+/* line 162, E:/Sites/urc/universal/scss/normalize.scss */
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+/* line 169, E:/Sites/urc/universal/scss/normalize.scss */
+sup {
+  top: -0.5em; }
+
+/* line 173, E:/Sites/urc/universal/scss/normalize.scss */
+sub {
+  bottom: -0.25em; }
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove border when inside `a` element in IE 8/9/10.
+ */
+/* line 184, E:/Sites/urc/universal/scss/normalize.scss */
+img {
+  border: 0; }
+
+/**
+ * Correct overflow not hidden in IE 9/10/11.
+ */
+/* line 192, E:/Sites/urc/universal/scss/normalize.scss */
+svg:not(:root) {
+  overflow: hidden; }
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * Address margin not present in IE 8/9 and Safari.
+ */
+/* line 203, E:/Sites/urc/universal/scss/normalize.scss */
+figure {
+  margin: 1em 40px; }
+
+/**
+ * Address differences between Firefox and other browsers.
+ */
+/* line 211, E:/Sites/urc/universal/scss/normalize.scss */
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0; }
+
+/**
+ * Contain overflow in all browsers.
+ */
+/* line 221, E:/Sites/urc/universal/scss/normalize.scss */
+pre {
+  overflow: auto; }
+
+/**
+ * Address odd `em`-unit font size rendering in all browsers.
+ */
+/* line 232, E:/Sites/urc/universal/scss/normalize.scss */
+code, kbd, pre, samp {
+  font-family: monospace, monospace;
+  font-size: 1em; }
+
+/* Forms
+   ========================================================================== */
+/**
+ * Known limitation: by default, Chrome and Safari on OS X allow very limited
+ * styling of `select`, unless a `border` property is set.
+ */
+/**
+ * 1. Correct color not being inherited.
+ *    Known issue: affects color of disabled elements.
+ * 2. Correct font properties not being inherited.
+ * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
+ */
+/* line 256, E:/Sites/urc/universal/scss/normalize.scss */
+button, input, optgroup, select, textarea {
+  color: inherit;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+  margin: 0;
+  /* 3 */ }
+
+/**
+ * Address `overflow` set to `hidden` in IE 8/9/10/11.
+ */
+/* line 266, E:/Sites/urc/universal/scss/normalize.scss */
+button {
+  overflow: visible; }
+
+/**
+ * Address inconsistent `text-transform` inheritance for `button` and `select`.
+ * All other form control elements do not inherit `text-transform` values.
+ * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
+ * Correct `select` style inheritance in Firefox.
+ */
+/* line 278, E:/Sites/urc/universal/scss/normalize.scss */
+button, select {
+  text-transform: none; }
+
+/**
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Correct inability to style clickable `input` types in iOS.
+ * 3. Improve usability and consistency of cursor style between image-type
+ *    `input` and others.
+ */
+/* line 293, E:/Sites/urc/universal/scss/normalize.scss */
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+  cursor: pointer;
+  /* 3 */ }
+
+/**
+ * Re-set default cursor for disabled elements.
+ */
+/* line 303, E:/Sites/urc/universal/scss/normalize.scss */
+button[disabled], html input[disabled] {
+  cursor: default; }
+
+/**
+ * Remove inner padding and border in Firefox 4+.
+ */
+/* line 312, E:/Sites/urc/universal/scss/normalize.scss */
+button::-moz-focus-inner, input::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+/**
+ * Address Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+/* line 322, E:/Sites/urc/universal/scss/normalize.scss */
+input {
+  line-height: normal; }
+
+/**
+ * It's recommended that you don't attempt to style these elements.
+ * Firefox's implementation doesn't respect box-sizing, padding, or width.
+ *
+ * 1. Address box sizing set to `content-box` in IE 8/9/10.
+ * 2. Remove excess padding in IE 8/9/10.
+ */
+/* line 335, E:/Sites/urc/universal/scss/normalize.scss */
+input[type="checkbox"], input[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/**
+ * Fix the cursor style for Chrome's increment/decrement buttons. For certain
+ * `font-size` values of the `input`, it causes the cursor style of the
+ * decrement button to change from `default` to `text`.
+ */
+/* line 347, E:/Sites/urc/universal/scss/normalize.scss */
+input[type="number"]::-webkit-inner-spin-button, input[type="number"]::-webkit-outer-spin-button {
+  height: auto; }
+
+/**
+ * 1. Address `appearance` set to `searchfield` in Safari and Chrome.
+ * 2. Address `box-sizing` set to `border-box` in Safari and Chrome
+ *    (include `-moz` to future-proof).
+ */
+/* line 357, E:/Sites/urc/universal/scss/normalize.scss */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  /* 2 */
+  box-sizing: content-box; }
+
+/**
+ * Remove inner padding and search cancel button in Safari and Chrome on OS X.
+ * Safari (but not Chrome) clips the cancel button when the search input has
+ * padding (and `textfield` appearance).
+ */
+/* line 371, E:/Sites/urc/universal/scss/normalize.scss */
+input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+/**
+ * Define consistent border, margin, and padding.
+ */
+/* line 379, E:/Sites/urc/universal/scss/normalize.scss */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em; }
+
+/**
+ * 1. Correct `color` not being inherited in IE 8/9/10/11.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ */
+/* line 390, E:/Sites/urc/universal/scss/normalize.scss */
+legend {
+  border: 0;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/**
+ * Remove default vertical scrollbar in IE 8/9/10/11.
+ */
+/* line 399, E:/Sites/urc/universal/scss/normalize.scss */
+textarea {
+  overflow: auto; }
+
+/**
+ * Don't inherit the `font-weight` (applied by a rule above).
+ * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
+ */
+/* line 408, E:/Sites/urc/universal/scss/normalize.scss */
+optgroup {
+  font-weight: bold; }
+
+/* Tables
+   ========================================================================== */
+/**
+ * Remove most spacing between table cells.
+ */
+/* line 419, E:/Sites/urc/universal/scss/normalize.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* line 425, E:/Sites/urc/universal/scss/normalize.scss */
+td, th {
+  padding: 0; }
+
+/* line 5, E:/Sites/urc/universal/scss/styles.scss */
+body, html {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background-color: #636363;
+  text-transform: capitalize; }
+
+/* line 25, E:/Sites/urc/universal/scss/styles.scss */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  color: white; }
+
+/* line 31, E:/Sites/urc/universal/scss/styles.scss */
+nav#navbar {
+  position: fixed;
+  top: 0px;
+  width: 50px;
+  height: 100%;
+  overflow: hidden;
+  transition-property: width;
+  transition-duration: 250ms;
+  background-color: #2c3e50;
+  z-index: 2;
+  overflow-y: auto; }
+  /* line 43, E:/Sites/urc/universal/scss/styles.scss */
+  nav#navbar > button {
+    width: 50px;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding: 5px;
+    background-size: 40px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: transparent; }
+    /* line 53, E:/Sites/urc/universal/scss/styles.scss */
+    nav#navbar > button#navBtn {
+      background-image: url('../images/menu.svg'); }
+    /* line 56, E:/Sites/urc/universal/scss/styles.scss */
+    nav#navbar > button#settingsBtn {
+      position: absolute;
+      left: 190px;
+      background-image: url('../images/settings.svg');
+      transition-property: left;
+      transition-duration: 250ms; }
+  /* line 65, E:/Sites/urc/universal/scss/styles.scss */
+  nav#navbar > ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    width: 100%;
+    border-top: 1px solid rgba(255, 255, 255, 0.1); }
+    /* line 69, E:/Sites/urc/universal/scss/styles.scss */
+    nav#navbar > ul > li {
+      width: 300px;
+      height: 50px;
+      background-color: transparent;
+      border-width: 0;
+      overflow: hidden;
+      transition-property: background-color, border-width, height;
+      transition-duration: 500ms; }
+      /* line 77, E:/Sites/urc/universal/scss/styles.scss */
+      nav#navbar > ul > li > a {
+        text-decoration: none;
+        color: white;
+        display: inline-block;
+        width: 250px; }
+        /* line 81, E:/Sites/urc/universal/scss/styles.scss */
+        nav#navbar > ul > li > a > img {
+          float: left;
+          width: 30px;
+          height: 30px;
+          margin: 10px; }
+        /* line 87, E:/Sites/urc/universal/scss/styles.scss */
+        nav#navbar > ul > li > a > h3 {
+          float: left;
+          margin: 0 20px 0;
+          line-height: 50px; }
+        /* line 92, E:/Sites/urc/universal/scss/styles.scss */
+        nav#navbar > ul > li > a:after {
+          content: "";
+          display: block;
+          clear: both; }
+      /* line 98, E:/Sites/urc/universal/scss/styles.scss */
+      nav#navbar > ul > li > input {
+        width: 30px;
+        height: 30px;
+        margin: 10px;
+        float: right; }
+      /* line 104, E:/Sites/urc/universal/scss/styles.scss */
+      nav#navbar > ul > li.active {
+        background-color: rgba(255, 255, 255, 0.2);
+        border-left: 5px solid rgba(255, 255, 255, 0.5); }
+        /* line 107, E:/Sites/urc/universal/scss/styles.scss */
+        nav#navbar > ul > li.active > a > img {
+          margin-left: 5px; }
+      /* line 111, E:/Sites/urc/universal/scss/styles.scss */
+      nav#navbar > ul > li.hide {
+        height: 0px; }
+  /* line 117, E:/Sites/urc/universal/scss/styles.scss */
+  nav#navbar.active {
+    width: 240px; }
+    /* line 119, E:/Sites/urc/universal/scss/styles.scss */
+    nav#navbar.active.settings {
+      width: 300px; }
+      /* line 121, E:/Sites/urc/universal/scss/styles.scss */
+      nav#navbar.active.settings #settingsBtn {
+        left: 250px; }
+      /* line 124, E:/Sites/urc/universal/scss/styles.scss */
+      nav#navbar.active.settings li.hide {
+        height: 50px;
+        background-color: rgba(1, 1, 1, 0.2); }
+
+/* line 132, E:/Sites/urc/universal/scss/styles.scss */
+main#main {
+  position: relative;
+  margin-left: 50px;
+  padding: 10px; }
+  /* line 136, E:/Sites/urc/universal/scss/styles.scss */
+  main#main > section {
+    margin-bottom: 140px; }
+    /* line 138, E:/Sites/urc/universal/scss/styles.scss */
+    main#main > section > header {
+      margin: 40px 0px 60px 0; }
+      /* line 140, E:/Sites/urc/universal/scss/styles.scss */
+      main#main > section > header > img {
+        float: left;
+        width: 100px;
+        height: 100px; }
+      /* line 145, E:/Sites/urc/universal/scss/styles.scss */
+      main#main > section > header > h1 {
+        font-size: 5em;
+        float: left;
+        line-height: 100px;
+        margin: 0 40px 0; }
+      /* line 151, E:/Sites/urc/universal/scss/styles.scss */
+      main#main > section > header:after {
+        content: "";
+        display: block;
+        clear: both; }
+    /* line 158, E:/Sites/urc/universal/scss/styles.scss */
+    main#main > section > main > figure {
+      float: left;
+      width: 50%;
+      margin: 0;
+      padding: 10px;
+      box-sizing: border-box; }
+      @media (min-width: 768px) {
+        main#main > section > main > figure {
+          width: 33.333%; } }
+      @media (min-width: 1280px) {
+        main#main > section > main > figure {
+          width: 25%; } }
+      /* line 170, E:/Sites/urc/universal/scss/styles.scss */
+      main#main > section > main > figure > img {
+        width: 100%; }
+      /* line 173, E:/Sites/urc/universal/scss/styles.scss */
+      main#main > section > main > figure > figcaption {
+        position: relative;
+        min-height: 80px; }
+        /* line 176, E:/Sites/urc/universal/scss/styles.scss */
+        main#main > section > main > figure > figcaption > h2 {
+          margin: 0.5em 0 0.5em 40px;
+          line-height: 40px;
+          word-break: break-all; }
+        /* line 181, E:/Sites/urc/universal/scss/styles.scss */
+        main#main > section > main > figure > figcaption > a {
+          position: absolute;
+          left: 0;
+          top: 0;
+          display: block;
+          height: 40px;
+          width: 40px;
+          background-image: url('../images/cook.svg');
+          background-size: 40px;
+          background-repeat: no-repeat;
+          background-postion: center; }
+    /* line 196, E:/Sites/urc/universal/scss/styles.scss */
+    main#main > section > main > div > h3 {
+      margin: 0 10px;
+      font-size: 1.5em; }
+    /* line 200, E:/Sites/urc/universal/scss/styles.scss */
+    main#main > section > main > div > progress {
+      display: block;
+      box-sizing: border-box;
+      margin: 20px 0;
+      width: 100%;
+      height: 40px;
+      padding: 0 10px; }
+      /* line 207, E:/Sites/urc/universal/scss/styles.scss */
+      main#main > section > main > div > progress[value] {
+        -webkit-appearance: none;
+        appearance: none; }
+        /* line 210, E:/Sites/urc/universal/scss/styles.scss */
+        main#main > section > main > div > progress[value]::-webkit-progress-bar {
+          background: -webkit-linear-gradient(left, green, yellow, red);
+          background: -o-linear-gradient(left, green, yellow, red);
+          background: linear-gradient(to right, green, yellow, red);
+          box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset; }
+        /* line 216, E:/Sites/urc/universal/scss/styles.scss */
+        main#main > section > main > div > progress[value]::-webkit-progress-value {
+          background-color: rgba(255, 255, 255, 0.4);
+          border-right: 2px solid black; }
+    /* line 223, E:/Sites/urc/universal/scss/styles.scss */
+    main#main > section > main > data {
+      font-size: 5em;
+      line-height: 120px;
+      margin: 0 10px;
+      display: block;
+      text-align: center;
+      margin-bottom: 60px; }
+      /* line 230, E:/Sites/urc/universal/scss/styles.scss */
+      main#main > section > main > data.indoor {
+        margin-right: 20px; }
+      /* line 233, E:/Sites/urc/universal/scss/styles.scss */
+      main#main > section > main > data.outdoor {
+        margin-left: 20px; }
+    /* line 237, E:/Sites/urc/universal/scss/styles.scss */
+    main#main > section > main > canvas.origins {
+      margin: 0 10px; }
+    /* line 241, E:/Sites/urc/universal/scss/styles.scss */
+    main#main > section > main.list:after {
+      display: block;
+      content: '';
+      clear: both; }
+    /* line 251, E:/Sites/urc/universal/scss/styles.scss */
+    main#main > section#device main > section > div {
+      margin-bottom: 40px; }
+      /* line 253, E:/Sites/urc/universal/scss/styles.scss */
+      main#main > section#device main > section > div > img, main#main > section#device main > section > div > figure {
+        position: relative;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%; }
+        @media (min-width: 640px) {
+          main#main > section#device main > section > div > img, main#main > section#device main > section > div > figure {
+            float: right;
+            margin: 0 20px;
+            width: 25%; } }
+        /* line 264, E:/Sites/urc/universal/scss/styles.scss */
+        main#main > section#device main > section > div > img.left, main#main > section#device main > section > div > figure.left {
+          float: left; }
+        /* line 267, E:/Sites/urc/universal/scss/styles.scss */
+        main#main > section#device main > section > div > img > img, main#main > section#device main > section > div > figure > img {
+          width: 100%; }
+        /* line 270, E:/Sites/urc/universal/scss/styles.scss */
+        main#main > section#device main > section > div > img > figcaption, main#main > section#device main > section > div > figure > figcaption {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          display: block;
+          font-size: 2em; }
+          @media (min-width: 768px) {
+            main#main > section#device main > section > div > img > figcaption, main#main > section#device main > section > div > figure > figcaption {
+              font-size: 3em; } }
+          @media (min-width: 1200px) {
+            main#main > section#device main > section > div > img > figcaption, main#main > section#device main > section > div > figure > figcaption {
+              font-size: 5em; } }
+          /* line 285, E:/Sites/urc/universal/scss/styles.scss */
+          main#main > section#device main > section > div > img > figcaption > data, main#main > section#device main > section > div > figure > figcaption > data {
+            position: relative;
+            width: 100%;
+            text-align: center;
+            display: block;
+            margin-top: 33%; }
+      /* line 295, E:/Sites/urc/universal/scss/styles.scss */
+      main#main > section#device main > section > div:after {
+        clear: both;
+        display: block;
+        content: ''; }
+    /* line 301, E:/Sites/urc/universal/scss/styles.scss */
+    main#main > section#device main > section > img {
+      width: 33.33%;
+      float: left;
+      padding: 20px;
+      box-sizing: border-box; }
+    /* line 307, E:/Sites/urc/universal/scss/styles.scss */
+    main#main > section#device main > section > data.battery {
+      display: block;
+      float: left;
+      width: 33.333%;
+      font-size: 4em;
+      line-height: 3em;
+      text-align: center; }
+    /* line 316, E:/Sites/urc/universal/scss/styles.scss */
+    main#main > section#device main > section:after {
+      clear: both;
+      content: '';
+      display: block; }
+    /* line 321, E:/Sites/urc/universal/scss/styles.scss */
+    main#main > section#device main > section.mapWrapper {
+      margin: 40px 10px; }
+      /* line 323, E:/Sites/urc/universal/scss/styles.scss */
+      main#main > section#device main > section.mapWrapper > .map {
+        height: 400px;
+        margin: 0;
+        padding: 0;
+        display: block; }
+        /* line 328, E:/Sites/urc/universal/scss/styles.scss */
+        main#main > section#device main > section.mapWrapper > .map > div {
+          height: 100%;
+          margin: 0;
+          padding: 0; }
+        @media (min-width: 768px) {
+          main#main > section#device main > section.mapWrapper > .map {
+            height: 800px; } }
+      /* line 337, E:/Sites/urc/universal/scss/styles.scss */
+      main#main > section#device main > section.mapWrapper > data {
+        margin: 20px 0px;
+        font-size: 3em;
+        display: block; }
+        @media (min-width: 768px) {
+          main#main > section#device main > section.mapWrapper > data {
+            width: 33.333%;
+            float: left; } }
+    /* line 352, E:/Sites/urc/universal/scss/styles.scss */
+    main#main > section#forecast > main > section {
+      width: 100%;
+      float: left;
+      padding: 10px;
+      box-sizing: border-box; }
+      /* line 357, E:/Sites/urc/universal/scss/styles.scss */
+      main#main > section#forecast > main > section > h2 {
+        text-align: center;
+        font-size: 4em; }
+      @media (min-width: 768px) {
+        main#main > section#forecast > main > section {
+          width: 33.333%; }
+          /* line 363, E:/Sites/urc/universal/scss/styles.scss */
+          main#main > section#forecast > main > section > h2 {
+            font-size: 3em;
+            text-align: left; } }
+      /* line 368, E:/Sites/urc/universal/scss/styles.scss */
+      main#main > section#forecast > main > section > figure {
+        margin: 0;
+        padding: 0; }
+        /* line 371, E:/Sites/urc/universal/scss/styles.scss */
+        main#main > section#forecast > main > section > figure > img {
+          width: 100%; }
+        /* line 375, E:/Sites/urc/universal/scss/styles.scss */
+        main#main > section#forecast > main > section > figure > figcaption > h3 {
+          font-size: 2em;
+          text-align: center; }
+          /* line 378, E:/Sites/urc/universal/scss/styles.scss */
+          main#main > section#forecast > main > section > figure > figcaption > h3.rain {
+            background-image: url(../images/weather/rain.svg);
+            background-position: 40% center;
+            background-size: 40px;
+            background-repeat: no-repeat; }
+          @media (min-width: 768px) {
+            main#main > section#forecast > main > section > figure > figcaption > h3 {
+              text-align: left; }
+              /* line 386, E:/Sites/urc/universal/scss/styles.scss */
+              main#main > section#forecast > main > section > figure > figcaption > h3.rain {
+                padding-left: 50px;
+                background-position: left center; } }
+    /* line 395, E:/Sites/urc/universal/scss/styles.scss */
+    main#main > section#forecast > main:after {
+      display: block;
+      content: '';
+      clear: both; }
+    /* line 402, E:/Sites/urc/universal/scss/styles.scss */
+    main#main > section:after {
+      clear: both;
+      content: '';
+      display: block; }
+    /* line 407, E:/Sites/urc/universal/scss/styles.scss */
+    main#main > section.hide {
+      display: none; }
