@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_plant_group_header"
+    android:padding="@dimen/default_container_padding"
+    >
+
+    <ImageView android:id="@+id/plant_status_icon"
+        android:layout_width="@dimen/plants_attribute_icon_size"
+        android:layout_height="@dimen/plants_attribute_icon_size"
+        android:layout_alignParentLeft="true"
+        />
+
+    <TextView android:id="@+id/plant_name_txt"
+        android:layout_height="@dimen/plants_attribute_icon_size"
+        android:layout_width="wrap_content"
+        android:layout_toRightOf="@+id/plant_status_icon"
+        android:layout_marginLeft="30dp"
+        android:gravity="center"
+        android:textSize="25sp"
+        tools:ignore="MissingPrefix"
+        fontPath="fonts/IndieFlower.ttf"
+        style="@style/DefaultTextStyle"
+        />
+
+    <ImageView android:id="@+id/plant_group_indicator"
+        android:layout_width="@dimen/plants_attribute_icon_size"
+        android:layout_height="@dimen/plants_attribute_icon_size"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/ic_expand"
+        />
+
+</RelativeLayout>

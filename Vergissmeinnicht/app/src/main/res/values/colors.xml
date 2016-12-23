@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="default_blue">#7DA9D1</color>
+    <color name="default_yellow">#FFA54B</color>
+    <color name="default_yellow_alpha">#64FFA54B</color>
+    <color name="default_red">#EE4E4E</color>
+    <color name="default_red_alpha">#64EE4E4E</color>
+    <color name="default_green">#18A39A</color>
+    <color name="default_green_alpha">#6418a39a</color>
+    <color name="default_white">#FFFFFF</color>
+    <color name="dialog_settings_color">#FF545454</color>
+
+    <!-- text colors -->
+    <color name="default_text_color">#333333</color>
+
+    <!-- ViewPager indicators -->
+    <color name="page_indicator_selected">#333333</color>
+    <color name="page_indicator_unselected">#FFA8A8A8</color>
+
+    <!-- default: main buttons -->
+    <color name="default_btn_1">#333333</color>
+    <color name="default_btn_2">#FFFFFF</color>
+
+    <!-- senior: main buttons -->
+    <color name="senior_btn_color_1">#FF7C7C7C</color>
+    <color name="senior_btn_color_2">#FF545454</color>
+    <color name="senior_btn_shadow">#FF9B9B9B</color>
+
+    <!-- FloatingActionButton -->
+    <color name="primary">#BF0005</color>
+    <color name="primary_pressed">#7DE8A1</color>
+    <color name="ripple">#3289E898</color>
+
+    <!-- material datepickers -->
+    <color name="mdtp_accent_color">#FF8873</color>
+    <color name="mdtp_accent_color_dark">#EE4E4E</color>
+
+</resources>

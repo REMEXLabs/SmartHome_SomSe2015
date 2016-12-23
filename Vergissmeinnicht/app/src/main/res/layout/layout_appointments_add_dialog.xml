@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="300dp">
+   <RelativeLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:id="@+id/info_container">
+       <TextView
+           android:id="@+id/info_container_heading"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignParentLeft="true"
+           android:text="@string/fragment_add_appointment_data_info"
+           style="@style/DefaultTextStyle"
+           />
+
+       <AutoCompleteTextView
+           android:id="@+id/edit_medicine_info"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_centerHorizontal="true"
+           android:layout_below="@+id/info_container_heading"
+           android:layout_marginTop="5dp"
+           android:imeOptions="actionDone"
+           android:hint="@string/fragment_add_appointment_data_info_hint"
+           style="@style/DefaultTextStyle"
+           />
+       </RelativeLayout>
+       <RelativeLayout
+           android:id="@+id/lead_time_container"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="25dp"
+           >
+            <TextView
+                android:id="@+id/lead_time_text"
+                android:layout_alignParentLeft="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/fragment_add_appointment_data_lead_time"
+                style="@style/DefaultTextStyle"
+                />
+
+            <Spinner
+                android:layout_centerInParent="true"
+                android:id="@+id/spinner_lead_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lead_time_text"
+                />
+       </RelativeLayout>
+</LinearLayout>

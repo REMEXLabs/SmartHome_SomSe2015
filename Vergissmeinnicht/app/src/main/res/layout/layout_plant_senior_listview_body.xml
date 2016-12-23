@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/default_container_padding"
+    android:paddingBottom="40dp"
+    >
+
+    <ImageView
+        android:id="@+id/img_temperature"
+        android:layout_width="@dimen/plants_attribute_icon_size"
+        android:layout_height="@dimen/plants_attribute_icon_size"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/ic_temperature"
+        />
+    <TextView
+        android:id="@+id/txt_temperature"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/plants_attribute_icon_size"
+        android:layout_toRightOf="@+id/img_temperature"
+        android:gravity="center"
+        style="@style/DefaultTextStyle"
+        />
+
+    <ImageView
+        android:id="@+id/img_soilmoisture"
+        android:layout_width="@dimen/plants_attribute_icon_size"
+        android:layout_height="@dimen/plants_attribute_icon_size"
+        android:layout_toRightOf="@+id/txt_temperature"
+        android:layout_marginLeft="50dp"
+        android:src="@drawable/ic_soilmoisture"
+        />
+    <TextView
+        android:id="@+id/txt_soilmoisture"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/plants_attribute_icon_size"
+        android:layout_toRightOf="@+id/img_soilmoisture"
+        android:gravity="center"
+        style="@style/DefaultTextStyle"
+        />
+
+    <ImageView
+        android:id="@+id/img_light"
+        android:layout_width="@dimen/plants_attribute_icon_size"
+        android:layout_height="@dimen/plants_attribute_icon_size"
+        android:layout_toRightOf="@+id/txt_soilmoisture"
+        android:layout_marginLeft="50dp"
+        android:src="@drawable/ic_sun"
+        />
+    <TextView
+        android:id="@+id/txt_light"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/plants_attribute_icon_size"
+        android:layout_toRightOf="@+id/img_light"
+        android:layout_marginLeft="10dp"
+        android:gravity="center"
+        style="@style/DefaultTextStyle"
+        />
+
+</RelativeLayout>

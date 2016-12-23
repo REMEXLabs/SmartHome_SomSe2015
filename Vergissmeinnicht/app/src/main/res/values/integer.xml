@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="fragment_add_event_lead_15">15</integer>
+    <integer name="fragment_add_event_lead_30">30</integer>
+    <integer name="fragment_add_event_lead_45">45</integer>
+    <integer name="fragment_add_event_lead_60">60</integer>
+</resources>

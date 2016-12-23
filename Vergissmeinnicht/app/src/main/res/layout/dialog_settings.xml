@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingBottom="@dimen/default_container_padding"
+    android:background="@color/default_white"
+    >
+
+    <!-- dialog heading -->
+    <TextView
+        android:id="@+id/txt_title"
+        android:padding="15dp"
+        android:gravity="center"
+        android:textColor="@color/default_white"
+        android:textSize="25sp"
+        android:text="@string/dialog_settings_title"
+        android:background="@color/dialog_settings_color"
+        style="@style/DefaultTextStyle"
+        />
+    <!-- dialog heading -->
+
+    <!-- settings: language -->
+    <TextView
+        android:id="@+id/txt_language_title"
+        android:layout_width="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/txt_title"
+        android:layout_marginTop="10dp"
+        android:padding="@dimen/default_button_margin"
+        android:gravity="center"
+        android:text="@string/dialog_settings_language_title"
+        style="@style/DefaultTextStyle"
+        />
+
+    <TextView
+        android:id="@+id/btn_german"
+        android:layout_width="wrap_content"
+        android:layout_toRightOf="@+id/txt_language_title"
+        android:layout_marginLeft="40dp"
+        android:layout_alignTop="@+id/txt_language_title"
+        android:gravity="center"
+        android:text="Deutsch"
+        android:padding="@dimen/default_button_margin"
+        style="@style/DefaultTextStyle"
+        />
+
+    <TextView
+        android:id="@+id/btn_english"
+        android:layout_width="wrap_content"
+        android:layout_toRightOf="@+id/btn_german"
+        android:layout_marginLeft="20dp"
+        android:layout_alignTop="@+id/btn_german"
+        android:gravity="center"
+        android:text="English"
+        android:padding="@dimen/default_button_margin"
+        style="@style/DefaultTextStyle"
+        />
+    <!-- settings: language -->
+
+    <!-- settings: text size -->
+    <TextView
+        android:id="@+id/txt_textsize_title"
+        android:layout_width="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/txt_language_title"
+        android:layout_marginTop="30dp"
+        android:padding="@dimen/default_button_margin"
+        android:gravity="center"
+        android:text="@string/dialog_settings_textsize_title"
+        style="@style/DefaultTextStyle"
+        />
+
+    <TextView
+        android:id="@+id/btn_textsize_small"
+        android:layout_width="wrap_content"
+        android:layout_alignLeft="@+id/btn_german"
+        android:layout_alignBottom="@+id/txt_textsize_title"
+        android:gravity="center"
+        android:text="@string/dialog_settings_textsize_small"
+        android:padding="@dimen/default_button_margin"
+        android:textSize="@dimen/text_size_small"
+        style="@style/DefaultTextStyle"
+        />
+
+    <TextView
+        android:id="@+id/btn_textsize_medium"
+        android:layout_width="wrap_content"
+        android:layout_toRightOf="@+id/btn_textsize_small"
+        android:layout_marginLeft="20dp"
+        android:layout_alignBottom="@+id/btn_textsize_small"
+        android:gravity="center"
+        android:text="@string/dialog_settings_textsize_medium"
+        android:padding="@dimen/default_button_margin"
+        android:textSize="@dimen/text_size_medium"
+        style="@style/DefaultTextStyle"
+        />
+
+    <TextView
+        android:id="@+id/btn_textsize_big"
+        android:layout_width="wrap_content"
+        android:layout_toRightOf="@+id/btn_textsize_medium"
+        android:layout_marginLeft="20dp"
+        android:layout_alignBottom="@+id/btn_textsize_medium"
+        android:gravity="center"
+        android:text="@string/dialog_settings_textsize_big"
+        android:padding="@dimen/default_button_margin"
+        android:textSize="@dimen/text_size_big"
+        style="@style/DefaultTextStyle"
+        />
+    <!-- settings: text size -->
+
+    <!-- settings: reminder option -->
+    <TextView
+        android:id="@+id/txt_reminder_title"
+        android:layout_width="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/txt_textsize_title"
+        android:layout_marginTop="30dp"
+        android:padding="@dimen/default_button_margin"
+        android:gravity="center"
+        android:text="@string/reminder_options"
+        style="@style/DefaultTextStyle"
+        />
+
+    <CheckBox
+        android:id="@+id/txt_reminder_audio"
+        android:layout_width="wrap_content"
+        android:text="@string/reminder_audio"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="@dimen/default_button_margin"
+        android:layout_marginLeft="130dp"
+        android:layout_toRightOf="@+id/txt_reminder_title"
+        android:layout_alignBottom="@+id/txt_reminder_title"
+        style="@style/DefaultTextStyle"
+        />
+
+    <CheckBox
+        android:id="@+id/txt_reminder_light"
+        android:layout_width="wrap_content"
+        android:padding="@dimen/default_button_margin"
+        android:layout_marginLeft="20dp"
+        android:layout_height="wrap_content"
+        android:text="@string/reminder_light"
+        android:layout_toRightOf="@+id/txt_reminder_audio"
+        android:layout_alignBottom="@+id/txt_reminder_audio"
+        style="@style/DefaultTextStyle"
+        />
+    <!-- settings: reminder option -->
+
+    <!-- close button -->
+    <TextView
+        android:id="@+id/btn_close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="@dimen/default_container_padding"
+        android:layout_alignTop="@+id/btn_account"
+        android:text="@string/dialog_settings_close_button"
+        android:padding="10dp"
+        android:background="@drawable/bg_default_button"
+        style="@style/DefaultTextStyle"
+        />
+    <!-- close button -->
+
+    <!-- settings: edit account button -->
+    <TextView
+        android:id="@+id/btn_account"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_edit_account"
+        android:padding="10dp"
+        android:background="@drawable/bg_default_button"
+        android:layout_alignTop="@+id/btn_save"
+        android:layout_centerHorizontal="true"
+        style="@style/DefaultTextStyle"
+        />
+    <!-- settings: edit account button -->
+
+    <!-- save button -->
+    <TextView
+        android:id="@+id/btn_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/default_container_padding"
+        android:layout_below="@+id/txt_reminder_title"
+        android:layout_marginTop="50dp"
+        android:text="@string/dialog_settings_save_button"
+        android:padding="10dp"
+        android:background="@drawable/bg_default_button"
+        style="@style/DefaultTextStyle"
+        />
+    <!-- save button -->
+</RelativeLayout>

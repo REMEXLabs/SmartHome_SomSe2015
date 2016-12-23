@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/content_container"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/default_white"
+    >
+
+    <TextView
+        android:id="@+id/fragment_heading"
+        android:text="@string/fragment_add_appointment_data_heading"
+        android:layout_alignParentTop="true"
+        style="@style/FragmentHeadingStyle"
+        />
+
+    <!-- date container -->
+    <RelativeLayout
+        android:id="@+id/container_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fragment_heading"
+        android:layout_marginTop="35dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="30dp"
+        >
+
+        <TextView
+            android:id="@+id/date_container_heading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="@string/fragment_add_event_data_date"
+            style="@style/DefaultTextStyle"
+            />
+
+        <TextView
+            android:id="@+id/txt_weekday"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            style="@style/DefaultTextStyle"
+            />
+
+        <DatePicker
+            android:id="@+id/picker_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/date_container_heading"
+            android:layout_toRightOf="@+id/txt_weekday"
+            android:calendarViewShown="false"
+            />
+
+    </RelativeLayout>
+    <!-- date container -->
+
+    <!-- time container -->
+    <RelativeLayout
+        android:id="@+id/container_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/container_date"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="30dp"
+        >
+
+        <TextView
+            android:id="@+id/time_container_heading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="@string/fragment_add_event_data_time"
+            style="@style/DefaultTextStyle"
+            />
+
+        <TimePicker
+            android:id="@+id/time_picker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/time_container_heading"
+            />
+    </RelativeLayout>
+    <!-- time container -->
+
+    <!-- info container -->
+    <RelativeLayout
+        android:id="@+id/info_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="30dp"
+        android:layout_alignRight="@+id/container_date"
+        android:layout_below="@+id/container_time"
+        android:layout_marginTop="10dp"
+        >
+
+        <TextView
+            android:id="@+id/info_container_heading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:text="@string/fragment_add_appointment_data_info"
+            android:layout_centerHorizontal="true"
+            style="@style/DefaultTextStyle"
+            />
+
+        <AutoCompleteTextView
+            android:id="@+id/edit_medicine_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/info_container_heading"
+            android:layout_marginTop="5dp"
+            android:hint="@string/fragment_add_appointment_data_info_hint"
+            android:lines="3"
+            style="@style/DefaultTextStyle"
+            />
+
+    </RelativeLayout>
+    <!-- info container -->
+
+    <!-- lead time container -->
+    <RelativeLayout
+        android:id="@+id/lead_time_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/info_container"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="30dp"
+        android:layout_alignLeft="@+id/container_time"
+        >
+
+        <TextView
+            android:id="@+id/lead_time_text"
+            android:layout_alignParentTop="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="@string/fragment_add_appointment_data_lead_time"
+            style="@style/DefaultTextStyle"
+            />
+
+        <Spinner
+            android:id="@+id/spinner_lead_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/lead_time_text"
+            />
+    </RelativeLayout>
+    <!-- lead time container -->
+
+    <TextView
+        android:id="@+id/btn_save_event"
+        android:layout_width="150dp"
+        android:layout_height="@dimen/main_button_height"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/info_container"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/default_white"
+        android:background="@drawable/bg_senior_button"
+        android:text="@string/btn_navigation_save"
+        android:gravity="center"
+        android:padding="10dp"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,91 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/default_white"
+    android:orientation="horizontal"
+    android:weightSum="1.0"
+    >
+
+    <!-- left navigation bar -->
+    <RelativeLayout
+        android:id="@+id/navigation_container"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.25"
+        android:background="@color/default_red"
+        android:orientation="vertical"
+        android:padding="@dimen/default_container_padding"
+        >
+
+        <ImageView
+            android:id="@+id/navigation_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/logo_height"
+            android:src="@drawable/senior_icon"
+            />
+
+        <ImageView
+            android:id="@+id/navigation_info_icon"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_above="@+id/navigation_category"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/ic_calendar_white"
+            />
+
+        <TextView
+            android:id="@+id/navigation_category"
+            android:text="@string/btn_navigation_appointments"
+            android:layout_above="@+id/add_btn"
+            android:layout_marginBottom="50dp"
+            style="@style/FragmentCategoryStyle"
+            />
+
+        <de.hdm.vergissmeinnicht.view.MainButton
+            android:id="@+id/add_btn"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/main_button_height"
+            android:layout_above="@+id/edit_btn"
+            android:layout_marginBottom="20dp"
+            />
+
+        <de.hdm.vergissmeinnicht.view.MainButton
+            android:id="@+id/edit_btn"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/main_button_height"
+            android:layout_above="@+id/back_btn"
+            android:layout_marginBottom="20dp"
+            />
+
+        <de.hdm.vergissmeinnicht.view.MainButton
+            android:id="@+id/back_btn"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/main_button_height"
+            android:layout_alignParentBottom="true"
+            />
+    </RelativeLayout>
+    <!-- left navigation bar -->
+
+    <!-- content container -->
+    <RelativeLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@+id/info_txt"
+        android:padding="@dimen/default_container_padding"
+        android:layout_weight="0.75"
+        >
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_alignParentLeft="true"
+            />
+
+    </RelativeLayout>
+    <!-- content container -->
+
+</LinearLayout>

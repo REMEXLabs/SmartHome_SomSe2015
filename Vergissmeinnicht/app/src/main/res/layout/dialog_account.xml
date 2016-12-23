@@ -1,0 +1,121 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="de.hdm.vergissmeinnicht.dialogs.AccountDialog"
+    android:paddingBottom="@dimen/default_container_padding"
+    >
+
+    <!--- Header Text -->
+    <TextView
+        android:id="@+id/account_dialog_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/account_header_txt"
+        android:padding="10dp"
+        android:gravity="center"
+        android:textColor="@color/default_white"
+        android:textSize="25sp"
+        android:background="@color/dialog_settings_color"
+        android:paddingBottom="@dimen/default_container_padding"
+        style="@style/DefaultTextStyle"
+        />
+
+    <!--- User Name -->
+    <TextView
+        android:id="@+id/account_name_title"
+        android:layout_below="@+id/account_dialog_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/account_name_txt"
+        android:padding="10dp"
+        style="@style/DefaultTextStyle"
+        />
+
+    <EditText
+        android:id="@+id/account_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginLeft="33dp"
+        android:layout_toLeftOf="@+id/account_name_edit_btn"
+        android:layout_alignTop="@+id/account_name_title"
+        android:layout_toRightOf="@+id/account_name_title"
+        android:layout_toEndOf="@+id/account_name_title"
+        android:layout_marginStart="33dp"
+        style="@style/DefaultTextStyle"
+        />
+
+    <ImageView
+        android:id="@+id/account_name_edit_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_content_edit"
+        android:layout_alignBottom="@+id/account_name"
+        android:layout_alignParentRight="true"
+        />
+
+
+    <!--- Password -->
+    <TextView
+        android:id="@+id/account_pwd_title"
+        android:layout_below="@+id/account_name_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/account_pwd_txt"
+        android:padding="10dp"
+        style="@style/DefaultTextStyle"
+        />
+
+    <EditText
+        android:id="@+id/account_pwd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:password="true"
+        android:padding="10dp"
+        android:layout_below="@+id/account_name"
+        android:layout_toLeftOf="@+id/account_pwd_edit_btn"
+        android:layout_alignLeft="@+id/account_name"
+        android:layout_alignStart="@+id/account_name"
+        style="@style/DefaultTextStyle"
+        />
+
+    <ImageView
+        android:id="@+id/account_pwd_edit_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_content_edit"
+        android:layout_alignBottom="@+id/account_pwd"
+        android:layout_alignParentRight="true"
+        />
+
+    <!-- save button -->
+    <TextView
+        android:id="@+id/btn_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/default_container_padding"
+        android:layout_below="@+id/account_pwd_title"
+        android:layout_marginTop="35dp"
+        android:text="@string/dialog_settings_save_button"
+        android:padding="10dp"
+        android:background="@drawable/bg_default_button"
+        style="@style/DefaultTextStyle"
+        />
+
+    <!-- close button -->
+    <TextView
+        android:id="@+id/btn_close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="@dimen/default_container_padding"
+        android:layout_alignTop="@+id/btn_save"
+        android:text="@string/dialog_settings_close_button"
+        android:padding="10dp"
+        android:background="@drawable/bg_default_button"
+        style="@style/DefaultTextStyle"
+        />
+    <!-- close button -->
+
+</RelativeLayout>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/event_data_container"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/default_container_padding"
+    android:layout_marginTop="@dimen/eventdata_margin"
+    >
+
+    <TextView
+        android:id="@+id/event_name"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="@dimen/text_size_default"
+        tools:ignore="MissingPrefix"
+        fontPath="fonts/IndieFlower.ttf"
+        style="@style/DefaultTextStyle"
+        />
+
+    <TextView
+        android:id="@+id/event_repeat"
+        android:layout_below="@+id/event_name"
+        android:layout_centerHorizontal="true"
+        android:textSize="@dimen/text_size_default"
+        style="@style/DefaultTextStyle"
+        />
+
+    <TextView
+        android:id="@+id/event_info"
+        android:layout_below="@+id/event_repeat"
+        android:layout_centerHorizontal="true"
+        android:textSize="@dimen/text_size_default"
+        style="@style/DefaultTextStyle"
+        />
+
+    <LinearLayout
+        android:id="@+id/containter_event__data_buttons"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        >
+
+        <TextView
+            android:id="@+id/btn_edit_data"
+            android:layout_width="100dp"
+            android:layout_height="@dimen/main_button_height"
+            android:textColor="@color/default_white"
+            android:background="@drawable/bg_senior_button"
+            android:text="@string/btn_navigation_edit"
+            android:gravity="center"
+            android:padding="10dp"
+            android:layout_marginRight="15dp"
+            android:visibility="invisible"
+            />
+
+        <TextView
+            android:id="@+id/btn_delete_data"
+            android:layout_width="100dp"
+            android:layout_height="@dimen/main_button_height"
+            android:textColor="@color/default_white"
+            android:background="@drawable/bg_senior_button"
+            android:text="@string/btn_delete_data"
+            android:gravity="center"
+            android:padding="10dp"
+            android:visibility="invisible"
+            />
+    </LinearLayout>
+
+</RelativeLayout>

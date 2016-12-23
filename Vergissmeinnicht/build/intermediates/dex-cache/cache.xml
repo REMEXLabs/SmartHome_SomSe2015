@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/dennis/.gradle/caches/modules-2/files-2.1/org.mortbay.jetty/jetty/6.1.26/2f546e289fddd5b1fab1d4199fbb6e9ef43ee4b0/jetty-6.1.26.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="2f546e289fddd5b1fab1d4199fbb6e9ef43ee4b0">
+        <dex dex="/home/dennis/Code/Android/AndroidStudio Projects/VergissMeinNicht/app/build/intermediates/pre-dexed/debug/jetty-6.1.26-aa62b01eb785ddc794632eadf8ae72a11e4f1ebb.jar" />
+    </item>
+    <item
+        jar="/home/dennis/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife/7.0.1/d5d13ea991eab0252e3710e5df3d6a9d4b21d461/butterknife-7.0.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d5d13ea991eab0252e3710e5df3d6a9d4b21d461">
+        <dex dex="/home/dennis/Code/Android/AndroidStudio Projects/VergissMeinNicht/app/build/intermediates/pre-dexed/debug/butterknife-7.0.1-109b73091122815874dff0c209140245f6be72be.jar" />
+    </item>
+    <item
+        jar="/home/dennis/Code/Android/AndroidStudio Projects/VergissMeinNicht/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/libs/internal_impl-22.1.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="9e070ad32b2700b0343e8e0cccc437733d91ba3a">
+        <dex dex="/home/dennis/Code/Android/AndroidStudio Projects/VergissMeinNicht/app/build/intermediates/pre-dexed/debug/internal_impl-22.1.1-1bd1ceddfab80696c36fba18986ff968aa3a4789.jar" />
+    </item>
+    <item
+        jar="/home/dennis/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="/home/dennis/Code/Android/AndroidStudio Projects/VergissMeinNicht/app/build/intermediates/pre-dexed/debug/library-2.4.0-c300fc9bdbb8c1f6ee9d3a1e49baed851d86f86b.jar" />
+    </item>
+    <item
+        jar="/home/dennis/.gradle/caches/modules-2/files-2.1/com.google.api-client/google-api-client/1.20.0/d3e66209ae9e749b2d6833761e7885f60f285564/google-api-client-1.20.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d3e66209ae9e749b2d6833761e7885f60f285564">
+        <dex dex="/home/dennis/Code/Android/AndroidStudio Projects/VergissMeinNicht/app/build/intermediates/pre-dexed/debug/google-api-client-1.20.0-0e52b2b85af1f64a124e3a9eff9e1f5e0eeef5e4.jar" />
+    </item>
+    <item
+        jar="/home/dennis/Code/Android/AndroidStudio Projects/VergissMeinNicht/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/22.1.1/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e0b0c35d02308b270015a74cada4887e2e49b889">
+        <dex dex="/home/dennis/Code/Android/AndroidStudio Projects/VergissMeinNicht/app/build/intermediates/pre-dexed/debug/classes-2b0e225b0ce7fa67e02f25e80a9ed0dd30fe2776.jar" />
+    </item>
+    <item
+        jar="/home/dennis/.gradle/caches/modules-2/files-2.1/com.google.http-client/google-http-client-jackson2/1.20.0/2408070b2abec043624d35b35e30450f1b663858/google-http-client-jackson2-1.20.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="2408070b2abec043624d35b35e30450f1b663858">
+        <dex dex="/home/dennis/Code/Android/AndroidStudio Projects/VergissMeinNicht/app/build/intermediates/pre-dexed/debug/google-http-client-jackson2-1.20.0-3779aea51d0c2b49d21c72cd115ec28075732667.jar" />
+    </item>
+    <item
+        jar="/home/dennis/.gradle/caches/modules-2/files-2.1/com.google.http-client/google-http-client/1.20.0/93d82db2bca534960253f43424b2ba9d7638b4d2/google-http-client-1.20.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="93d82db2bca534960253f43424b2ba9d7638b4d2">
+        <dex dex="/home/dennis/Code/Android/AndroidStudio Projects/VergissMeinNicht/app/build/intermediates/pre-dexed/debug/google-http-client-1.20.0-ceb4db9600d83f3b461391c613fac618ee4ab71a.jar" />
+    </item>
+    <item
+        jar="/home/dennis/Code/Android/AndroidStudio Projects/VergissMeinNicht/app/build/intermediates/exploded-aar/com.android.support/support-v13/21.0.0/libs/internal_impl-21.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="5a8e01742aee890c56fe638ea7c921b91a3fdc62">
+        <dex dex="/home/dennis/Code/Android/AndroidStudio Projects/VergissMeinNicht/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.0-6c53082e74f00d86a863158a330cc1302004a853.jar" />
+    </item>
+    <item
+        jar="/home/dennis/Code/Android/AndroidStudio Projects/VergissMeinNicht/app/build/intermediates/exploded-aar/VergissMeinNicht.libs/viewpager_indicators_lib/unspecified/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="72dedfa8ba2c2a496629e9df0fd021d0199f6aed">
+        <dex dex="/home/dennis/Code/Android/AndroidStudio Projects/VergissMeinNicht/app/build/intermediates/pre-dexed/debug/classes-a61f36ed9f0c2535e134f968c074b84c8baf0512.jar" />
+    </item>
+    <item
+        jar="/home/dennis/Code/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.0/support-annotations-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="/home/dennis/Code/Android/AndroidStudio Projects/VergissMeinNicht/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.0-70364ef69a9f2f8263b2a83bb7b5297cad10b8ef.jar" />
+    </item>
+    <item
+        jar="/home/dennis/Code/Android/AndroidStudio Projects/VergissMeinNicht/app/build/intermediates/exploded-aar/com.tonicartos/superslim/0.4.13/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8adfd82229a5f0a129469305587557199017219e">
+        <dex dex="/home/dennis/Code/Android/AndroidStudio Projects/VergissMeinNicht/app/build/intermediates/pre-dexed/debug/classes-d70c8905164c7c2a42eef5a2b6c31f039aa5bd62.jar" />
+    </item>
+    <item
+        jar="/home/dennis/.gradle/caches/modules-2/files-2.1/com.google.apis/google-api-services-calendar/v3-rev125-1.20.0/fef496f895ad5be86416863153d4efbf7b601f8a/google-api-services-calendar-v3-rev125-1.20.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="fef496f895ad5be86416863153d4efbf7b601f8a">
+        <dex dex="/home/dennis/Code/Android/AndroidStudio Projects/VergissMeinNicht/app/build/intermediates/pre-dexed/debug/google-api-services-calendar-v3-rev125-1.20.0-484f5bfedd942d41f70548b730f6e2b1cb897cc0.jar" />
+    </item>
+    <item
+        jar="/home/dennis/Code/Android/AndroidStudio Projects/VergissMeinNicht/app/build/intermediates/exploded-aar/com.android.support/support-v13/21.0.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="0c0c19759e5868604a3b4c2c0074ee9404d73c76">
+        <dex dex="/home/dennis/Code/Android/AndroidStudio Projects/VergissMeinNicht/app/build/intermediates/pre-dexed/debug/classes-1969bacba2849e032e5e19c79eb7315ca369fd75.jar" />
+    </item>
+    <item
+        jar="/home/dennis/Code/Android/AndroidStudio Projects/VergissMeinNicht/app/build/intermediates/exploded-aar/uk.co.chrisjenx/calligraphy/2.1.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e653e15e62e8a59ddd76cc7f827bf8bce38ae7bb">
+        <dex dex="/home/dennis/Code/Android/AndroidStudio Projects/VergissMeinNicht/app/build/intermediates/pre-dexed/debug/classes-6e771c66908b81e908d673877da557e2a7e2c242.jar" />
+    </item>
+    <item
+        jar="/home/dennis/Code/Android/AndroidStudio Projects/VergissMeinNicht/app/build/intermediates/exploded-aar/com.android.support/support-v13/21.0.0/libs/internal_impl-21.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="5a8e01742aee890c56fe638ea7c921b91a3fdc62">
+        <dex dex="/home/dennis/Code/Android/AndroidStudio Projects/VergissMeinNicht/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.0-6c53082e74f00d86a863158a330cc1302004a853.jar" />
+    </item>
+    <item
+        jar="/home/dennis/Code/Android/AndroidStudio Projects/VergissMeinNicht/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/22.1.1/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e0b0c35d02308b270015a74cada4887e2e49b889">
+        <dex dex="/home/dennis/Code/Android/AndroidStudio Projects/VergissMeinNicht/app/build/intermediates/pre-dexed/debug/classes-2b0e225b0ce7fa67e02f25e80a9ed0dd30fe2776.jar" />
+    </item>
+    <item
+        jar="/home/dennis/Code/Android/AndroidStudio Projects/VergissMeinNicht/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a3ff3c506644c820eb2bdf06e8339f72be578551">
+        <dex dex="/home/dennis/Code/Android/AndroidStudio Projects/VergissMeinNicht/app/build/intermediates/pre-dexed/debug/classes-549c88faa5c17a13ce76094a48f683e2bcf74565.jar" />
+    </item>
+    <item
+        jar="/home/dennis/.gradle/caches/modules-2/files-2.1/org.mortbay.jetty/jetty-util/6.1.26/e5642fe0399814e1687d55a3862aa5a3417226a9/jetty-util-6.1.26.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e5642fe0399814e1687d55a3862aa5a3417226a9">
+        <dex dex="/home/dennis/Code/Android/AndroidStudio Projects/VergissMeinNicht/app/build/intermediates/pre-dexed/debug/jetty-util-6.1.26-83b4ddf360d97895c9ca14751b8a95e7fa6b4113.jar" />
+    </item>
+    <item
+        jar="/home/dennis/.gradle/caches/modules-2/files-2.1/joda-time/joda-time/2.7/5599707a3eaad13e889f691b3af78c8c03842195/joda-time-2.7.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="5599707a3eaad13e889f691b3af78c8c03842195">
+        <dex dex="/home/dennis/Code/Android/AndroidStudio Projects/VergissMeinNicht/app/build/intermediates/pre-dexed/debug/joda-time-2.7-1e2991faa1a9d641f24dadbafcd88d81e9b24e9f.jar" />
+    </item>
+    <item
+        jar="/home/dennis/Code/Android/AndroidStudio Projects/VergissMeinNicht/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/libs/internal_impl-22.1.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="9e070ad32b2700b0343e8e0cccc437733d91ba3a">
+        <dex dex="/home/dennis/Code/Android/AndroidStudio Projects/VergissMeinNicht/app/build/intermediates/pre-dexed/debug/internal_impl-22.1.1-1bd1ceddfab80696c36fba18986ff968aa3a4789.jar" />
+    </item>
+    <item
+        jar="/home/dennis/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.1.3/f6c3aed1cdfa21b5c1737c915186ea93a95a58bd/jackson-core-2.1.3.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f6c3aed1cdfa21b5c1737c915186ea93a95a58bd">
+        <dex dex="/home/dennis/Code/Android/AndroidStudio Projects/VergissMeinNicht/app/build/intermediates/pre-dexed/debug/jackson-core-2.1.3-bb4f70db60ae812131d9cf93c4c4bf3684972623.jar" />
+    </item>
+    <item
+        jar="/home/dennis/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/1.3.9/40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf/jsr305-1.3.9.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf">
+        <dex dex="/home/dennis/Code/Android/AndroidStudio Projects/VergissMeinNicht/app/build/intermediates/pre-dexed/debug/jsr305-1.3.9-87ee76f3e8836086efb2628c960651daced3563e.jar" />
+    </item>
+    <item
+        jar="/home/dennis/Code/Android/AndroidStudio Projects/VergissMeinNicht/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c95ba8152923e4872e86a82cfcba9a51c0214328">
+        <dex dex="/home/dennis/Code/Android/AndroidStudio Projects/VergissMeinNicht/app/build/intermediates/pre-dexed/debug/classes-4395ecc1b6474c6a9d2485b0d686d94b5c477a34.jar" />
+    </item>
+    <item
+        jar="/home/dennis/.gradle/caches/modules-2/files-2.1/com.google.oauth-client/google-oauth-client/1.20.0/1d086ac5756475ddf451af2e2df6e288d18608ca/google-oauth-client-1.20.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1d086ac5756475ddf451af2e2df6e288d18608ca">
+        <dex dex="/home/dennis/Code/Android/AndroidStudio Projects/VergissMeinNicht/app/build/intermediates/pre-dexed/debug/google-oauth-client-1.20.0-38e23c237d545d97f981ed0a20e52ebba963eba5.jar" />
+    </item>
+    <item
+        jar="/home/dennis/.gradle/caches/modules-2/files-2.1/com.google.oauth-client/google-oauth-client-jetty/1.20.0/33ce9d07291881459aacb459ab4aa20c5fb97ffc/google-oauth-client-jetty-1.20.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="33ce9d07291881459aacb459ab4aa20c5fb97ffc">
+        <dex dex="/home/dennis/Code/Android/AndroidStudio Projects/VergissMeinNicht/app/build/intermediates/pre-dexed/debug/google-oauth-client-jetty-1.20.0-37b257ad610ae48ca7637d347197aaedb626b3cc.jar" />
+    </item>
+    <item
+        jar="/home/dennis/Code/Android/AndroidStudio Projects/VergissMeinNicht/app/build/intermediates/exploded-aar/com.wdullaer/materialdatetimepicker/1.3.1/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e15ef06948c2e49db3dd082afa6eaebbdff94f30">
+        <dex dex="/home/dennis/Code/Android/AndroidStudio Projects/VergissMeinNicht/app/build/intermediates/pre-dexed/debug/classes-7bbcf22a9a6a687c6fbd69bbfd2477adf040ddf7.jar" />
+    </item>
+    <item
+        jar="/home/dennis/Code/Android/AndroidStudio Projects/VergissMeinNicht/app/build/intermediates/exploded-aar/com.tonicartos/superslim/0.4.13/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="8adfd82229a5f0a129469305587557199017219e">
+        <dex dex="/home/dennis/Code/Android/AndroidStudio Projects/VergissMeinNicht/app/build/intermediates/pre-dexed/debug/classes-d70c8905164c7c2a42eef5a2b6c31f039aa5bd62.jar" />
+    </item>
+    <item
+        jar="/home/dennis/.gradle/caches/modules-2/files-2.1/com.google.oauth-client/google-oauth-client-java6/1.20.0/1b12417c242005a61679ddce26636a7439d8c2fe/google-oauth-client-java6-1.20.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1b12417c242005a61679ddce26636a7439d8c2fe">
+        <dex dex="/home/dennis/Code/Android/AndroidStudio Projects/VergissMeinNicht/app/build/intermediates/pre-dexed/debug/google-oauth-client-java6-1.20.0-7a8705523805a2c9e16d7407c8010e0de9386034.jar" />
+    </item>
+    <item
+        jar="/home/dennis/Code/Android/AndroidStudio Projects/VergissMeinNicht/app/build/intermediates/exploded-aar/com.melnykov/floatingactionbutton/1.3.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8c6ebb7d087d1a30bf84356bd2aecf85309fc024">
+        <dex dex="/home/dennis/Code/Android/AndroidStudio Projects/VergissMeinNicht/app/build/intermediates/pre-dexed/debug/classes-ee398110bdb60745a206e9a8a9db60032ea405bf.jar" />
+    </item>
+    <item
+        jar="/home/dennis/.gradle/caches/modules-2/files-2.1/com.google.guava/guava-jdk5/13.0/381ae6c8add7c98e9bcddb1e0b898400cd6fc3f7/guava-jdk5-13.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="381ae6c8add7c98e9bcddb1e0b898400cd6fc3f7">
+        <dex dex="/home/dennis/Code/Android/AndroidStudio Projects/VergissMeinNicht/app/build/intermediates/pre-dexed/debug/guava-jdk5-13.0-fcc2d6f6d4a48bd50846eded3c427c8543788344.jar" />
+    </item>
+    <item
+        jar="/home/dennis/Code/Android/AndroidStudio Projects/VergissMeinNicht/app/build/intermediates/exploded-aar/com.android.support/support-v13/21.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="0c0c19759e5868604a3b4c2c0074ee9404d73c76">
+        <dex dex="/home/dennis/Code/Android/AndroidStudio Projects/VergissMeinNicht/app/build/intermediates/pre-dexed/debug/classes-1969bacba2849e032e5e19c79eb7315ca369fd75.jar" />
+    </item>
+    <item
+        jar="/home/dennis/.gradle/caches/modules-2/files-2.1/org.mortbay.jetty/servlet-api/2.5-20081211/22bff70037e1e6fa7e6413149489552ee2064702/servlet-api-2.5-20081211.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="22bff70037e1e6fa7e6413149489552ee2064702">
+        <dex dex="/home/dennis/Code/Android/AndroidStudio Projects/VergissMeinNicht/app/build/intermediates/pre-dexed/debug/servlet-api-2.5-20081211-dd97e7e4c52ee8aa9bec0918df136d0ff89e9eec.jar" />
+    </item>
+    <item
+        jar="/home/dennis/Code/Android/AndroidStudio Projects/VergissMeinNicht/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="c95ba8152923e4872e86a82cfcba9a51c0214328">
+        <dex dex="/home/dennis/Code/Android/AndroidStudio Projects/VergissMeinNicht/app/build/intermediates/pre-dexed/debug/classes-4395ecc1b6474c6a9d2485b0d686d94b5c477a34.jar" />
+    </item>
+
+</items>

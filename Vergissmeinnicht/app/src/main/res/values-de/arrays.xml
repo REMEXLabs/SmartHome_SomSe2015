@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="fragment_add_medicine_data_interval">
+        <item>@string/medicine_add_data_interval_daily</item>
+        <item>@string/medicine_add_data_interval_weekly</item>
+        <item>@string/medicine_add_data_interval_monthly</item>
+    </string-array>
+
+    <string-array name="fragment_add_medicine_data_repeat">
+        <item>@string/medicine_add_data_repeat_single</item>
+        <item>@string/medicine_add_data_repeat_twice</item>
+        <item>@string/medicine_add_data_repeat_third</item>
+    </string-array>
+
+    <integer-array name="fragment_add_event_lead_time">
+        <item>@integer/fragment_add_event_lead_15</item>
+        <item>@integer/fragment_add_event_lead_30</item>
+        <item>@integer/fragment_add_event_lead_45</item>
+        <item>@integer/fragment_add_event_lead_60</item>
+    </integer-array>
+</resources>

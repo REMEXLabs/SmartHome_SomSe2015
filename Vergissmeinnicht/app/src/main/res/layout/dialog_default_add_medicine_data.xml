@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/content_container"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/default_white"
+    >
+
+    <!-- name container -->
+    <RelativeLayout
+        android:id="@+id/name_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        >
+
+        <TextView
+            android:id="@+id/name_container_heading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="@string/medicine_add_data_name"
+            style="@style/DefaultTextStyle"
+            />
+
+        <AutoCompleteTextView
+            android:id="@+id/edit_medicine_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/name_container_heading"
+            android:hint="@string/medicine_add_data_name_hint"
+            android:singleLine="true"
+            android:gravity="center"
+            android:imeOptions="actionNext"
+            style="@style/DefaultTextStyle"
+            />
+    </RelativeLayout>
+    <!-- name container -->
+
+    <!-- info container -->
+    <RelativeLayout
+        android:id="@+id/info_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/name_container"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        >
+
+        <TextView
+            android:id="@+id/info_container_heading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/medicine_add_data_info"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            style="@style/DefaultTextStyle"
+            />
+
+        <AutoCompleteTextView
+            android:id="@+id/edit_medicine_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/info_container_heading"
+            android:layout_centerHorizontal="true"
+            android:hint="@string/medicine_add_data_info_hint"
+            android:singleLine="true"
+            android:gravity="center"
+            android:imeOptions="actionDone"
+            style="@style/DefaultTextStyle"
+            />
+
+    </RelativeLayout>
+    <!-- info container -->
+
+    <!-- interval container -->
+    <RelativeLayout
+        android:id="@+id/container_interval"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/info_container"
+        android:padding="20dp"
+        >
+
+        <TextView
+            android:id="@+id/container_repeat_heading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerVertical="true"
+            android:text="@string/medicine_add_data_heading_repeat"
+            style="@style/DefaultTextStyle"
+            />
+
+        <Spinner
+            android:id="@+id/spinner_medicine_data_interval"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/container_repeat_heading"
+            style="@style/DefaultTextStyle"
+            />
+    </RelativeLayout>
+    <!-- interval container -->
+
+</RelativeLayout>

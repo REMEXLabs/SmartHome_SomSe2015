@@ -1,0 +1,128 @@
+<resources>
+    <!-- general -->
+    <string name="app_name">VergissMeinNicht</string>
+    <string name="yes">Ja</string>
+    <string name="ok">Ok</string>
+    <string name="no">Nein</string>
+    <string name="next">Vorwärts</string>
+    <string name="default_interface">Standard-Interface</string>
+    <string name="senior_interface">Senioren-Interface</string>
+    <string name="back">Zurück</string>
+    <string name="today">Heute</string>
+    <string name="date">Datum</string>
+    <string name="time">Uhrzeit</string>
+    <string name="temperature">Temperatur</string>
+    <string name="soilmoisture">Feuchtigkeit</string>
+    <string name="light">Lichteinstrahlung</string>
+    <string name="click_again_to_leave_app">Drücken Sie noch ein mal den Zurück-Knopf um die App zu schließen.</string>
+    <string name="error_retrieving_data">Fehler beim Laden der Daten vom Online-Kalender!</string>
+    <string name="no_data">Derzeit sind keine Daten im Kalender gespeichert</string>
+    <string name="retrieved_events">Vom Online-Kalender geladene Daten: </string>
+
+    <!-- categories -->
+    <string name="plants">Pflanzen</string>
+    <string name="medicine">Medizin</string>
+    <string name="appointments">Termine</string>
+
+    <!-- update/delete event data -->
+    <string name="dialog_delete_data_title">Löschen</string>
+    <string name="dialog_delete_data_message">Möchten Sie die Daten wirklich löschen?</string>
+    <string name="dialog_edit_delete_data">Möchten Sie löschen oder bearbeiten?</string>
+    <string name="dialog_button_edit">Bearbeiten</string>
+    <string name="dialog_button_delete">Löschen</string>
+    <string name="toast_success_save_api">Das Ereignis wurde erfolgreich gespeichert!</string>
+    <string name="toast_error_save_api">Fehler beim Speichern des Ereignisses. Bitte versuchen Sie es erneut.</string>
+    <string name="toast_success_update_api">Das Ereignis wurde erfolgreich bearbeitet!</string>
+    <string name="toast_error_update_api">Fehler beim Bearbeiten des Ereignisses. Bitte versuchen Sie es erneut.</string>
+    <string name="toast_success_delete_api">Das Ereignis wurde erfolgreich gelöscht!</string>
+    <string name="toast_error_delete_api">Fehler beim Löschen des Ereignisses. Bitte versuchen Sie es erneut.</string>
+
+    <!-- appointment data -->
+    <string name="fragment_add_appointment_data_heading">Informationen des Events eintragen</string>
+    <string name="fragment_add_appointment_data_info">Information</string>
+    <string name="fragment_add_appointment_data_info_hint">Hier klicken um eine Information einzugeben</string>
+    <string name="fragment_add_appointment_data_lead_time">Vorlaufzeit (min)</string>
+    <string name="fragment_add_appointment_data_missing_info">Die Daten sind nicht vollständig. Geben Sie eine Info an und versuchen Sie es erneut.</string>
+    <string name="dialog_title_add_appointment_data">Tragen Sie weitere Informationen zum Termin ein</string>
+
+    <!-- medicine data -->
+    <string name="medicine_add_data_heading">Informationen des Medikaments eintragen</string>
+    <string name="medicine_add_data_name">Name</string>
+    <string name="medicine_add_data_name_hint">Hier klicken um den Namen einzugeben</string>
+    <string name="medicine_add_data_info">Information</string>
+    <string name="medicine_add_data_info_hint">Hier klicken um zusätzliche Informationen einzugeben</string>
+    <string name="medicine_add_data_heading_interval">Interval</string>
+    <string name="medicine_add_data_interval_daily">Täglich</string>
+    <string name="medicine_add_data_interval_weekly">Wöchentlich</string>
+    <string name="medicine_add_data_interval_monthly">Monatlich</string>
+    <string name="medicine_add_data_heading_repeat">Wiederholung</string>
+    <string name="medicine_add_data_repeat_single">einmalig</string>
+    <string name="medicine_add_data_repeat_twice">zweimalig</string>
+    <string name="medicine_add_data_repeat_third">dreimalig</string>
+    <string name="medicine_add_data_missing_name">Die Daten sind nicht vollständig. Geben Sie eine Namen an und versuchen Sie es erneut.</string>
+    <string name="medicine_add_data_missing_info">Die Daten sind nicht vollständig. Geben Sie einen Info an und versuchen Sie es erneut.</string>
+    <string name="medicine_info_no_data">Es ist keine Medizin eingetragen</string>
+    <string name="dialog_title_add_medicine_info">Tragen Sie die Informationen des Medikaments ein</string>
+    <string name="dialog_title_add_medicine_time">Vervollständigen Sie die die Informationen</string>
+    <string name="medicine_daily">täglich</string>
+
+    <!-- settings -->
+    <string name="dialog_settings_title">Einstellungen</string>
+    <string name="dialog_settings_save_button">Anwenden</string>
+    <string name="dialog_settings_close_button">Abbrechen</string>
+    <string name="dialog_settings_language_title">Sprache auswählen</string>
+    <string name="dialog_settings_textsize_title">Schriftgröße</string>
+    <string name="dialog_settings_textsize_small">klein</string>
+    <string name="dialog_settings_textsize_medium">mittel</string>
+    <string name="dialog_settings_textsize_big">groß</string>
+    <string name="dialog_settings_switch_interfaces_btn">Wechseln</string>
+    <string name="reminder_options">Erinnerung</string>
+    <string name="reminder_audio">Sound</string>
+    <string name="reminder_light">Licht</string>
+    <string name="dialog_message_reminder_submit">Sind Sie sicher, dass Sie keine Erinnerung möchten?</string>
+    <string name="dialog_reminder_cancel">Zurück</string>
+    <string name="dialog_reminder_submit">Ohne Erinnerungsfunktion fortfahren.</string>
+    <string name="dialog_google_account_message">Um das Google-Calendar-Konto zu wechseln, müssen Sie den Google-Account auf ihrem Android-Gerät wechseln.</string>
+
+    <!-- buttons -->
+    <string name="btn_navigation_overview">Übersicht</string>
+    <string name="btn_navigation_plants">Pflanzen</string>
+    <string name="btn_navigation_medicine">Medizin</string>
+    <string name="btn_navigation_appointments">Termine</string>
+    <string name="btn_navigation_settings">Menü</string>
+    <string name="btn_navigation_add">Hinzufügen</string>
+    <string name="btn_navigation_back">Zurück</string>
+    <string name="btn_navigation_edit">Bearbeiten</string>
+    <string name="btn_navigation_stop">Beenden</string>
+    <string name="btn_navigation_cancel">Abbrechen</string>
+    <string name="btn_navigation_save">Speichern</string>
+    <string name="btn_delete_data">Löschen</string>
+    <string name="btn_switch_interfaces">Oberfläche</string>
+    <string name="btn_edit_account">Konto</string>
+
+    <!-- account settings -->
+    <string name="account_header_txt">Konto</string>
+    <string name="account_name_txt">Nutzername</string>
+    <string name="account_pwd_txt">Passwort</string>
+
+    <!-- account settings -->
+    <string name="account_mail">Anna.PxLab.hdm@googlemail.com</string>
+    <string name="account_pwd">o4P6NuHM</string>
+
+    <!-- Authenticate Account text -->
+    <string name="enter_password">Bitte altes Passwort eingeben</string>
+    <string name="wrong_password">Falsches Passwort</string>
+    <string name="account_success_message">Speichern erfolgreich</string>
+
+    <!-- Koubachi Api creds -->
+    <string name="koubachi_user_credentials">tO1AlxgDb91skMmULxR</string>
+    <string name="koubachi_app_key">KLABCVYCGW8QDZC5Q27HMX50</string>
+
+    <!-- Koubachi Tasks -->
+    <string name="water_plant">Bitte gieße die Pflanze</string>
+    <string name="mist_plant">Bitte befeuchte die Pflanze</string>
+    <string name="put_into_light">Bitte stellen Sie die Pflanze ins Licht</string>
+    <string name="fertilize_plant">Bitte düngen Sie die Pflanze</string>
+
+
+</resources>

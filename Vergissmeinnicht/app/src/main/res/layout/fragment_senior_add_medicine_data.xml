@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/content_container"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/default_white"
+    >
+
+    <TextView
+        android:id="@+id/fragment_heading"
+        android:text="@string/medicine_add_data_heading"
+        style="@style/FragmentHeadingStyle"
+        />
+
+    <!-- name container -->
+    <RelativeLayout
+        android:id="@+id/name_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fragment_heading"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        >
+
+        <TextView
+            android:id="@+id/name_container_heading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="@string/medicine_add_data_name"
+            style="@style/DefaultTextStyle"
+            />
+
+        <AutoCompleteTextView
+            android:id="@+id/edit_medicine_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/name_container_heading"
+            android:hint="@string/medicine_add_data_name_hint"
+            android:singleLine="true"
+            android:gravity="start"
+            style="@style/DefaultTextStyle"
+            />
+    </RelativeLayout>
+    <!-- name container -->
+
+    <!-- info container -->
+    <RelativeLayout
+        android:id="@+id/info_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/name_container"
+        >
+
+        <TextView
+            android:id="@+id/info_container_heading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="@string/medicine_add_data_info"
+            style="@style/DefaultTextStyle"
+            />
+
+        <AutoCompleteTextView
+            android:id="@+id/edit_medicine_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/info_container_heading"
+            android:layout_centerHorizontal="true"
+            android:hint="@string/medicine_add_data_info_hint"
+            android:singleLine="true"
+            android:gravity="start"
+            style="@style/DefaultTextStyle"
+            />
+
+    </RelativeLayout>
+    <!-- info container -->
+
+    <!-- repeat container -->
+    <!--<RelativeLayout-->
+        <!--android:id="@+id/container_repeat"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignTop="@+id/container_interval"-->
+        <!--android:layout_alignParentLeft="true"-->
+        <!--android:layout_marginLeft="100dp"-->
+        <!-->-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/container_repeat_heading"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_alignParentTop="true"-->
+            <!--android:layout_centerVertical="true"-->
+            <!--android:text="@string/medicine_add_data_heading_repeat"-->
+            <!--style="@style/DefaultTextStyle"-->
+            <!--/>-->
+
+        <!--<Spinner-->
+            <!--android:id="@+id/spinner_medicine_data_repeat"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_below="@+id/container_repeat_heading"-->
+            <!--style="@style/DefaultTextStyle"-->
+            <!--/>-->
+    <!--</RelativeLayout>-->
+    <!-- repeat container -->
+
+    <!-- interval container -->
+    <RelativeLayout
+        android:id="@+id/container_interval"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/info_container"
+        android:layout_marginTop="40dp"
+        >
+
+        <TextView
+            android:id="@+id/time_container_heading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="@string/medicine_add_data_heading_interval"
+            style="@style/DefaultTextStyle"
+            />
+
+        <Spinner
+            android:id="@+id/spinner_medicine_data_interval"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/time_container_heading"
+            />
+    </RelativeLayout>
+    <!-- interval container -->
+
+    <TextView
+        android:id="@+id/btn_save_medicine"
+        android:layout_width="150dp"
+        android:layout_height="@dimen/main_button_height"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="15dp"
+        android:textColor="@color/default_white"
+        android:background="@drawable/bg_senior_button"
+        android:text="@string/btn_navigation_save"
+        android:textSize="@dimen/text_size_default"
+        android:gravity="center"
+        android:padding="10dp"
+        />
+
+</RelativeLayout>
