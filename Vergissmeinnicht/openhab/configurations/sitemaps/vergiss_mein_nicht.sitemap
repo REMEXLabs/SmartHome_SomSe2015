@@ -1,0 +1,6 @@
+sitemap vergiss_mein_nicht
+{
+	Text item=playuri
+	Switch item=stop
+	Switch item=switchlight
+}
